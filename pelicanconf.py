@@ -1,7 +1,6 @@
 AUTHOR = "Angel Lareo"
 SITENAME = "Disceres"
 # SITESUBTITLE = "A personal blog."
-SITEURL = "https://angellareo.github.io/blog"
 TIMEZONE = 'Europe/Madrid'
 DEFAULT_LANG = 'es'
 
@@ -28,8 +27,8 @@ LINKS = (
 )
 
 SOCIAL = (
+    ("mastodon", "http://mastodon.social/@alareo"),
     ("twitter", "http://twitter.com/ALFXogo"),
-#    ("lastfm", "http://lastfm.com/user/akounet"),
     ("github", "http://github.com/angellareo"),
 )
 
@@ -74,5 +73,7 @@ DIRECT_TEMPLATES = (('index', 'blog', 'tags', 'categories', 'archives'))
 PAGINATED_DIRECT_TEMPLATES = (('blog',))
 TEMPLATE_PAGES = {'home.html': 'index.html',}
 MENUITEMS = {
-    ('Blog', 'blog.html')
+    ('Blog', 'blog.html'),
+    ('Scholar', 'https://scholar.google.com/citations?user=zzaFkkoAAAAJ&hl=es'),
+    ("Contacto", "mailto:angel.lareo@uam.es")
 }
