@@ -8,7 +8,7 @@
 		<!-- Metadata -->
 	<meta name="description" content="">
 	<meta property="og:description" content="">
-	<meta property="og:title" content="Mis principales hojas de referencia" />
+	<meta property="og:title" content="Hojas de referencia" />
 	<meta property="og:type" content="article" />
 	<meta property="og:url" content="https://angellareo.github.io/blog/posts/2024/05/principales-hojas-referencia/" />
 		<meta property="og:image" content="https://angellareo.github.io/blog/images/avatar.png" />
@@ -50,9 +50,11 @@
 			<p></p>
 		</div>
 			<ul class="sidebar-nav">
-					<li><a href="blog.html">Blog</a></li>
-			</ul>
+				  <a href="https://scholar.google.com/citations?user=zzaFkkoAAAAJ&hl=es">Scholar</a> - 				  <a href="mailto:angel.lareo@uam.es">Contacto</a> - 				  <a href="blog.html">Blog</a>			</ul>
 		<nav class="sidebar-social">
+					<a class="sidebar-social-item" href="http://mastodon.social/@alareo" target="_blank">
+						<i class="fa fa-mastodon"></i>
+					</a>
 					<a class="sidebar-social-item" href="http://twitter.com/ALFXogo" target="_blank">
 						<i class="fa fa-twitter"></i>
 					</a>
@@ -66,18 +68,88 @@
 	</div>
 </div>		<div class="content container">
 <div class="post">
-	<h1 class="post-title">Mis principales hojas de referencia</h1>
-	<span class="post-date">Sat 11 May 2024</span>
-	<h1>bash</h1>
-<h1>git</h1>
-<h1>conda</h1>
-<h1>nvim</h1>
+	<h1 class="post-title">Hojas de referencia</h1>
+	<span class="post-date">2024_05_11 -- 20:05</span>
+	<p>Como ya dije, tengo intención de usar el blog como referencia (aunque con la esperanza de que a alguien más le resulte útil).</p>
+<p>Existen muchísimas hojas de referencia, la mayoría probablemente más completas de lo que yo pueda crear aquí. No obstante, puesto que cada uno tenemos nuestras necesidades y preferencias, aquí está es mi selección personalizada de comandos útiles para el día a día (que, probablemente, se irá actualizando).</p>
+<h1 class="tabset">cheatsheets</h1>
+<h2>conda</h2>
+<p>Listar environments</p>
+<div class="highlight"><pre><span></span><code>conda info --envs
+conda env list
+</code></pre></div>
+
+<p>Crear enviroments:</p>
+<div class="highlight"><pre><span></span><code>conda create --name &lt;my-env&gt;
+conda create -n &lt;my-env&gt;
+conda create -n myenv python=3.12
+conda env create -f environment.yml
+</code></pre></div>
+
+<p>Exportar environment a fichero yml:</p>
+<div class="highlight"><pre><span></span><code><span class="n">conda</span><span class="w"> </span><span class="n">env</span><span class="w"> </span><span class="k">export</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">environment</span><span class="o">.</span><span class="n">yml</span>
+</code></pre></div>
+
+<p>Eliminar environment:</p>
+<div class="highlight"><pre><span></span><code>conda remove --name &lt;my-env&gt; --all
+</code></pre></div>
+
+<h2>git</h2>
+<p>Configuración inicial</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.name<span class="w"> </span><span class="s2">&quot;Your Name&quot;</span>
+git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.email<span class="w"> </span><span class="s2">&quot;your.email@example.com&quot;</span>
+</code></pre></div>
+
+<p>Clonación de repositorios</p>
+<div class="highlight"><pre><span></span><code>git clone &lt;repository_url&gt;
+</code></pre></div>
+
+<p>Añadir o eliminar del stage (cambios a confirmar)</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>&lt;file_name&gt;<span class="w">              </span><span class="c1"># Stage a specific file</span>
+git<span class="w"> </span>add<span class="w"> </span>.<span class="w">                        </span><span class="c1"># Stage all changes</span>
+git<span class="w"> </span>reset<span class="w"> </span>&lt;file_name&gt;<span class="w">            </span><span class="c1"># Unstage a specific file</span>
+git<span class="w"> </span>reset<span class="w">                        </span><span class="c1"># Unstage all changes</span>
+</code></pre></div>
+
+<p>Mostrar remotos</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>remote<span class="w"> </span>-v<span class="w">                    </span><span class="c1"># List remote repositories</span>
+</code></pre></div>
+
+<p>Confirmar cambios</p>
+<div class="highlight"><pre><span></span><code>git commit -m &quot;Commit message&quot;
+</code></pre></div>
+
+<p>Push / pull</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>&lt;branch_name&gt;<span class="w">    </span><span class="c1"># Push changes to a remote repository</span>
+git<span class="w"> </span>pull<span class="w"> </span>origin<span class="w"> </span>&lt;branch_name&gt;<span class="w">    </span><span class="c1"># Pull changes from a remote repository</span>
+</code></pre></div>
+
+<p>Deshacer últimos commits (no <em>pusheados</em>). El ejemplo se muestra para <em>1</em> commit, pero podría hacerse para un número <em>n</em>.</p>
+<div class="highlight"><pre><span></span><code>git reset HEAD~1                 # Undo last commit and keep changes staged
+git reset HEAD~1 --soft          # Undo last commit and keep changes unstaged
+</code></pre></div>
+
+<p>Manejo de ramas</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>branch<span class="w">                       </span><span class="c1"># List branches</span>
+git<span class="w"> </span>branch<span class="w"> </span>&lt;branch_name&gt;<span class="w">         </span><span class="c1"># Create a new branch</span>
+git<span class="w"> </span>checkout<span class="w"> </span>&lt;branch_name&gt;<span class="w">       </span><span class="c1"># Switch to a different branch</span>
+git<span class="w"> </span>merge<span class="w"> </span>&lt;branch_name&gt;<span class="w">          </span><span class="c1"># Merge changes from another branch into the current branch</span>
+</code></pre></div>
+
+<p>Manejo del stash</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>stash<span class="w">                        </span><span class="c1"># Stash changes</span>
+git<span class="w"> </span>stash<span class="w"> </span>pop<span class="w">                    </span><span class="c1"># Apply stashed changes and remove them from the stash</span>
+git<span class="w"> </span>stash<span class="w"> </span>list<span class="w">                   </span><span class="c1"># List stashed changes</span>
+git<span class="w"> </span>stash<span class="w"> </span>apply<span class="w">                  </span><span class="c1"># Apply stashed changes without removing them from the stash</span>
+git<span class="w"> </span>stash<span class="w"> </span>drop<span class="w">                   </span><span class="c1"># Remove a specific stash</span>
+git<span class="w"> </span>stash<span class="w"> </span>clear<span class="w">                  </span><span class="c1"># Remove all stashes</span>
+</code></pre></div>
 
 		<span class="post-tags">
 			Tags:
 			<ul>
 					<li><a href="https://angellareo.github.io/blog/tag/cheatsheet.html">cheatsheet</a></li>
-					<li><a href="https://angellareo.github.io/blog/tag/blog.html">blog</a></li>
+					<li><a href="https://angellareo.github.io/blog/tag/referencia.html">referencia</a></li>
 			</ul>
 		</span>
 
