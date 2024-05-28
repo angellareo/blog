@@ -156,7 +156,6 @@ code {
   padding: .25em .5em;
   font-size: 85%;
   color: #bf616a;
-  background-color: #f9f9f9;
   border-radius: 3px;
 }
 pre {
@@ -170,7 +169,6 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f9f9f9;
 }
 pre code {
   padding: 0;
@@ -179,13 +177,53 @@ pre code {
   background-color: transparent;
 }
 
+.copy-btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: #444;
+  color: #ebdbb2;
+  border: none;
+  padding: 5px;
+  font-family: monospace;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.copy-btn:hover {
+  background-color: #555;
+}
+
 /* Pygments via Jekyll */
 .highlight {
-  margin-bottom: 1rem;
-  border-radius: 4px;
+  background-color: #282828;
+  color: #ebdbb2;
+  padding: 5px 10px 10px 10px;
+  font-family: monospace;
+  position: relative;
+  margin-bottom: 20px; /* Add some space between code blocks */
 }
+
+.highlight::before {
+  content: "";
+  background-color: black;
+  height: 25px;
+  position: absolute;
+  top: -15px;
+  left: 0;
+  right: 0;
+  border-radius: 10px 10px 0 0;
+}
+
+
 .highlight pre {
-  margin-bottom: 0;
+  margin: 0;
+  overflow: auto;
+}
+
+.highlight code {
+  color: #ebdbb2;
+  display: block;
+  padding: 0; /* Remove padding if any */
 }
 
 /* Gist via GitHub Pages */

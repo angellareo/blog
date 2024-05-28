@@ -10,18 +10,16 @@ Como ya dije, tengo intención de usar el blog como referencia (aunque con la es
 
 Existen muchísimas hojas de referencia, la mayoría probablemente más completas de lo que yo pueda crear aquí. No obstante, puesto que cada uno tenemos nuestras necesidades y preferencias, aquí está es mi selección personalizada de comandos útiles para el día a día (que, probablemente, se irá actualizando).
 
-# cheatsheets {.tabset}
-
-## conda
+# conda
 
 Listar environments
-```
+```bash
 conda info --envs
 conda env list
 ```
 
 Crear enviroments:
-```
+```bash
 conda create --name <my-env>
 conda create -n <my-env>
 conda create -n myenv python=3.12
@@ -29,16 +27,16 @@ conda env create -f environment.yml
 ```
 
 Exportar environment a fichero yml:
-```
+```bash
 conda env export > environment.yml
 ```
 
 Eliminar environment:
-```
+```bash
 conda remove --name <my-env> --all
 ```
 
-## git
+# git
 
 Configuración inicial
 ```bash
