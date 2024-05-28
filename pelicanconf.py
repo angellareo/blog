@@ -13,6 +13,7 @@ REVERSE_CATEGORY_ORDER = True
 LOCALE = "C"
 DEFAULT_PAGINATION = 6 
 #DEFAULT_DATE = (2012, 3, 2, 14, 1, 1)
+DEFAULT_DATE_FORMAT = ('%Y_%m_%d -- %H:%m')
 
 #FEED_ALL_RSS = "feeds/all.rss.xml"
 #CATEGORY_FEED_RSS = "feeds/{slug}.rss.xml"
@@ -56,6 +57,8 @@ READERS = {"html": None}
 
 # code blocks with line numbers
 PYGMENTS_RST_OPTIONS = {"linenos": "table"}
+
+# PLUGINS = ['pelican.plugins.pelimoji']
 
 # foobar will not be used, because it's not in caps. All configuration keys
 # have to be in caps

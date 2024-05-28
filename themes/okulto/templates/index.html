@@ -10,6 +10,14 @@
 					<a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
 				</h1>
 				<span class="post-date">{{ article.locale_date }}</span>
+				{% if article.cover %}           
+				<div class="container"><div class="col-md-6" style="padding-left: 0px;  padding-right: 0px;">
+				  <img src="{{ article.cover }}" class="img-fluid">
+				  </div></div>   
+			 	{% endif %} 
+				<p>
+					{{ article.summary }}
+				</p>
 				{% if article.tags %}
 					<span class="post-tags">
 						Tags:
@@ -20,9 +28,6 @@
 						</ul>
 					</span>
 				{% endif %}
-				<p>
-					{{ article.summary }}
-				</p>
 				<a class="read-more" href="{{ article.url }}">Continue reading »</a>
 			</div>
 		{% endfor %}

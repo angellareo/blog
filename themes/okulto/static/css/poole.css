@@ -333,6 +333,44 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 4em;
 }
 
+.post-entry {
+  display: flex;
+  margin-bottom: 20px;
+  position: relative;
+  margin: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.post-cover {
+  flex: 0 0 300px;
+  margin-right: 20px;
+}
+
+.post-cover img {
+  max-width: 100%;
+  max-height: 300px;
+  display: block;
+  margin: 0 auto; /* Center the image vertically */
+}
+
+.post-details {
+  flex-grow: 1;
+}
+
+/* Separator style */
+.post-entry:not(:last-child):after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 2px;
+  background-color: #6a9fb5;
+}
+
 /* Blog post or page title */
 .page-title,
 .post-title,
@@ -348,7 +386,7 @@ tbody tr:nth-child(odd) th {
 .post-date {
   display: block;
   margin-top: -.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.2rem;
   color: #9a9a9a;
 }
 
