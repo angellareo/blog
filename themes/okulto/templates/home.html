@@ -1,8 +1,8 @@
 {% extends "base.html" %}
-{% block content %}
-<div class='page'>
-  <div class="page-header"><h1>Home</h1></div>
-  <div class="page-content">Content</div>
+{% block extra_head %}
+    <meta http-equiv="refresh" content="0;url={{ SITEURL }}/blog.html">
+{% endblock %}
 
-</div>
+{% block content %}
+    <p>If you are not redirected automatically, follow this <a href="{{ SITEURL }}/blog.html">link to the new page</a>.</p>
 {% endblock %}

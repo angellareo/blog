@@ -5,31 +5,33 @@
 {% if articles %}
 	<div class="posts">
         {% for article in (articles_page.object_list if articles_page else articles) %}
-			<div class="post-entry">
-				{% if article.cover %}           
-				<div class="post-cover"><div class="col" style="padding-left: 0px;  padding-right: 0px;">
-				  <img src="{{ article.cover }}" class="img-fluid">
-				  </div></div>   
-			 	{% endif %}
-				<div class="post-details">
-				<h1 class="post-title" href="{{ SITEURL }}/{{ article.url }}">
-					<a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
-				</h1>
-				<span class="post-date">{{ article.locale_date }}</span>
-				{{ article.summary }}
+			<div class="post">
+				<div class="post-entry">
+					{% if article.cover %}           
+					<div class="post-cover"><div class="col" style="padding-left: 0px;  padding-right: 0px;">
+					<img src="{{ SITEURL }}/{{ article.cover }}" class="img-fluid">
+					</div></div>   
+					{% endif %}
+					<div class="post-details">
+					<h1 class="post-title" href="{{ SITEURL }}/{{ article.url }}">
+						<a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+					</h1>
+					<span class="post-date">{{ article.locale_date }}</span>
+					{{ article.summary }}
+					</div> <!-- container -->
+				</div>
 				{% if article.tags %}
-					<span class="post-tags">
-						Tags:
-						<ul>
-							{% for tag in article.tags %}
-								<li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a></li>
-							{% endfor %}
-						</ul>
-					</span>
-				{% endif %}
-				<a class="read-more" href="{{ article.url }}">Seguir leyendo »</a>
-				</div> <!-- container -->
-			</div>
+				<span class="post-tags">
+					Tags:
+					<ul>
+						{% for tag in article.tags %}
+							<li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a></li>
+						{% endfor %}
+					</ul>
+				</span>
+			{% endif %}
+			<a class="read-more" href="{{ article.url }}">Seguir leyendo »</a>
+		</div>
 		{% endfor %}
 	</div>
 	{% if DEFAULT_PAGINATION and articles_page and articles_paginator.num_pages > 1 %}

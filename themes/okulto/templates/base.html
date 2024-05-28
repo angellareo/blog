@@ -43,6 +43,9 @@
 
 		<!-- Analytics -->
 		{% include 'fragments/google_analytics.html' %}
+
+		<!-- Extra headers-->
+		{% block extra_head %}{% endblock %}
 	</head>
 
 	<body class="theme-base-{{ COLOR_THEME if COLOR_THEME else '0d' }}">

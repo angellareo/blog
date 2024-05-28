@@ -12,6 +12,12 @@
 <div class="post">
 	<h1 class="post-title">{{ article.title }}</h1>
 	<span class="post-date">{{ article.locale_date }}</span>
+	{% if article.cover %}           
+	<div class="cover"><div class="col" style="padding-left: 0px;  padding-right: 0px;">
+	<img src="{{ SITEURL }}/{{ article.cover }}">
+	</div></div>   
+	{% endif %}
+
 	{{ article.content }}
 
 	{% if article.tags %}

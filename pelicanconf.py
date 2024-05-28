@@ -3,6 +3,7 @@ SITENAME = "Disceres"
 # SITESUBTITLE = "A personal blog."
 TIMEZONE = 'Europe/Madrid'
 DEFAULT_LANG = 'es'
+# SITEURL="https://angellareo.github.io/blog"
 
 # can be useful in development, but set to False when you're ready to publish
 RELATIVE_URLS = False
@@ -76,7 +77,7 @@ DIRECT_TEMPLATES = (('index', 'blog', 'tags', 'categories', 'archives'))
 PAGINATED_DIRECT_TEMPLATES = (('blog',))
 TEMPLATE_PAGES = {'home.html': 'index.html',}
 MENUITEMS = {
-    ('Blog', 'blog.html'),
+    ('Blog', 'https://angellareo.github.io/blog/blog.html'),
     ('Scholar', 'https://scholar.google.com/citations?user=zzaFkkoAAAAJ&hl=es'),
     ("Contacto", "mailto:angel.lareo@uam.es")
 }
