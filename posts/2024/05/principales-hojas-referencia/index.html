@@ -52,7 +52,7 @@
 			<p></p>
 		</div>
 			<ul class="sidebar-nav">
-				  <a href="https://scholar.google.com/citations?user=zzaFkkoAAAAJ&hl=es">Scholar</a> - 				  <a href="mailto:angel.lareo@uam.es">Contacto</a> - 				  <a href="https://angellareo.github.io/blog/blog.html">Blog</a>			</ul>
+				  <a href="https://angellareo.github.io/blog/blog.html">Blog</a> - 				  <a href="mailto:angel.lareo@uam.es">Contacto</a> - 				  <a href="https://scholar.google.com/citations?user=zzaFkkoAAAAJ&hl=es">Scholar</a>			</ul>
 		<nav class="sidebar-social">
 					<a class="sidebar-social-item" href="http://mastodon.social/@alareo" target="_blank">
 						<i class="fa fa-mastodon"></i>
@@ -75,29 +75,28 @@
 
 	<p>Como ya dije, tengo intención de usar el blog como referencia (aunque con la esperanza de que a alguien más le resulte útil).</p>
 <p>Existen muchísimas hojas de referencia, la mayoría probablemente más completas de lo que yo pueda crear aquí. No obstante, puesto que cada uno tenemos nuestras necesidades y preferencias, aquí está es mi selección personalizada de comandos útiles para el día a día (que, probablemente, se irá actualizando).</p>
-<h1 class="tabset">cheatsheets</h1>
-<h2>conda</h2>
+<h1>conda</h1>
 <p>Listar environments</p>
-<div class="highlight"><pre><span></span><code>conda info --envs
-conda env list
+<div class="highlight"><pre><span></span><code>conda<span class="w"> </span>info<span class="w"> </span>--envs
+conda<span class="w"> </span>env<span class="w"> </span>list
 </code></pre></div>
 
 <p>Crear enviroments:</p>
-<div class="highlight"><pre><span></span><code>conda create --name &lt;my-env&gt;
-conda create -n &lt;my-env&gt;
-conda create -n myenv python=3.12
-conda env create -f environment.yml
+<div class="highlight"><pre><span></span><code>conda<span class="w"> </span>create<span class="w"> </span>--name<span class="w"> </span>&lt;my-env&gt;
+conda<span class="w"> </span>create<span class="w"> </span>-n<span class="w"> </span>&lt;my-env&gt;
+conda<span class="w"> </span>create<span class="w"> </span>-n<span class="w"> </span>myenv<span class="w"> </span><span class="nv">python</span><span class="o">=</span><span class="m">3</span>.12
+conda<span class="w"> </span>env<span class="w"> </span>create<span class="w"> </span>-f<span class="w"> </span>environment.yml
 </code></pre></div>
 
 <p>Exportar environment a fichero yml:</p>
-<div class="highlight"><pre><span></span><code><span class="n">conda</span><span class="w"> </span><span class="n">env</span><span class="w"> </span><span class="k">export</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">environment</span><span class="o">.</span><span class="n">yml</span>
+<div class="highlight"><pre><span></span><code>conda<span class="w"> </span>env<span class="w"> </span><span class="nb">export</span><span class="w"> </span>&gt;<span class="w"> </span>environment.yml
 </code></pre></div>
 
 <p>Eliminar environment:</p>
-<div class="highlight"><pre><span></span><code>conda remove --name &lt;my-env&gt; --all
+<div class="highlight"><pre><span></span><code>conda<span class="w"> </span>remove<span class="w"> </span>--name<span class="w"> </span>&lt;my-env&gt;<span class="w"> </span>--all
 </code></pre></div>
 
-<h2>git</h2>
+<h1>git</h1>
 <p>Configuración inicial</p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.name<span class="w"> </span><span class="s2">&quot;Your Name&quot;</span>
 git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.email<span class="w"> </span><span class="s2">&quot;your.email@example.com&quot;</span>

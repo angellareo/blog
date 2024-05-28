@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Disceres</title><link href="https://angellareo.github.io/blog/" rel="alternate"></link><link href="https://angellareo.github.io/blog/feeds/all.atom.xml" rel="self"></link><id>https://angellareo.github.io/blog/</id><updated>2024-05-11T20:02:00+02:00</updated><entry><title>Hojas de referencia</title><link href="https://angellareo.github.io/blog/posts/2024/05/principales-hojas-referencia/" rel="alternate"></link><published>2024-05-11T20:02:00+02:00</published><updated>2024-05-11T20:02:00+02:00</updated><author><name>Angel Lareo</name></author><id>tag:angellareo.github.io,2024-05-11:/blog/posts/2024/05/principales-hojas-referencia/</id><summary type="html">&lt;p&gt;Algunas hojas de referencia que pueden ayudarte en tu día a día.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Como ya dije, tengo intención de usar el blog como referencia (aunque con la esperanza de que a alguien más le resulte útil).&lt;/p&gt;
 &lt;p&gt;Existen muchísimas hojas de referencia, la mayoría probablemente más completas de lo que yo pueda crear aquí. No obstante, puesto que cada uno tenemos nuestras necesidades y preferencias, aquí está es mi selección personalizada de comandos útiles para el día a día (que, probablemente, se irá actualizando).&lt;/p&gt;
-&lt;h1 class="tabset"&gt;cheatsheets&lt;/h1&gt;
-&lt;h2&gt;conda&lt;/h2&gt;
+&lt;h1&gt;conda&lt;/h1&gt;
 &lt;p&gt;Listar environments&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;conda info --envs
-conda env list
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;conda&lt;span class="w"&gt; &lt;/span&gt;info&lt;span class="w"&gt; &lt;/span&gt;--envs
+conda&lt;span class="w"&gt; &lt;/span&gt;env&lt;span class="w"&gt; &lt;/span&gt;list
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Crear enviroments:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;conda create --name &amp;lt;my-env&amp;gt;
-conda create -n &amp;lt;my-env&amp;gt;
-conda create -n myenv python=3.12
-conda env create -f environment.yml
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;conda&lt;span class="w"&gt; &lt;/span&gt;create&lt;span class="w"&gt; &lt;/span&gt;--name&lt;span class="w"&gt; &lt;/span&gt;&amp;lt;my-env&amp;gt;
+conda&lt;span class="w"&gt; &lt;/span&gt;create&lt;span class="w"&gt; &lt;/span&gt;-n&lt;span class="w"&gt; &lt;/span&gt;&amp;lt;my-env&amp;gt;
+conda&lt;span class="w"&gt; &lt;/span&gt;create&lt;span class="w"&gt; &lt;/span&gt;-n&lt;span class="w"&gt; &lt;/span&gt;myenv&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;python&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;.12
+conda&lt;span class="w"&gt; &lt;/span&gt;env&lt;span class="w"&gt; &lt;/span&gt;create&lt;span class="w"&gt; &lt;/span&gt;-f&lt;span class="w"&gt; &lt;/span&gt;environment.yml
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Exportar environment a fichero yml:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;conda&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;env&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;export&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;environment&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;yml&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;conda&lt;span class="w"&gt; &lt;/span&gt;env&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;export&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&amp;gt;&lt;span class="w"&gt; &lt;/span&gt;environment.yml
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Eliminar environment:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;conda remove --name &amp;lt;my-env&amp;gt; --all
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;conda&lt;span class="w"&gt; &lt;/span&gt;remove&lt;span class="w"&gt; &lt;/span&gt;--name&lt;span class="w"&gt; &lt;/span&gt;&amp;lt;my-env&amp;gt;&lt;span class="w"&gt; &lt;/span&gt;--all
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h2&gt;git&lt;/h2&gt;
+&lt;h1&gt;git&lt;/h1&gt;
 &lt;p&gt;Configuración inicial&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git&lt;span class="w"&gt; &lt;/span&gt;config&lt;span class="w"&gt; &lt;/span&gt;--global&lt;span class="w"&gt; &lt;/span&gt;user.name&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Your Name&amp;quot;&lt;/span&gt;
 git&lt;span class="w"&gt; &lt;/span&gt;config&lt;span class="w"&gt; &lt;/span&gt;--global&lt;span class="w"&gt; &lt;/span&gt;user.email&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;your.email@example.com&amp;quot;&lt;/span&gt;
