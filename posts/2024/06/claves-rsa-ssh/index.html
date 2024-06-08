@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es" prefix="og: http://ogp.me/ns#">
+	<head>
+		<link href="http://gmpg.org/xfn/11" rel="profile">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+		<!-- Metadata -->
+	<meta name="description" content="">
+	<meta property="og:description" content="">
+	<meta property="og:title" content="Claves RSA para conexiones SSH" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="https://angellareo.github.io/blog/posts/2024/06/claves-rsa-ssh/" />
+		<meta property="og:image" content="https://angellareo.github.io/blog/images/avatar.png" />
+
+		<!-- Enable responsiveness on mobile devices-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+		<title>Disceres</title>
+
+		<!-- CSS -->
+		<link href="//fonts.googleapis.com/" rel="dns-prefetch">
+		<link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Abril+Fatface|PT+Sans:400,400italic,700&amp;subset=latin,latin-ext" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://angellareo.github.io/blog/theme/css/poole.css" />
+		<link rel="stylesheet" href="https://angellareo.github.io/blog/theme/css/hyde.css" />
+		<link rel="stylesheet" href="https://angellareo.github.io/blog/theme/css/syntax.css" />
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" crossorigin="anonymous">
+
+		<!-- Feeds -->
+<link href="https://angellareo.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Disceres Full Atom Feed" />
+<link href="https://angellareo.github.io/blog/feeds/general.atom.xml" type="application/atom+xml" rel="alternate" title="Disceres Categories Atom Feed" />
+
+		<!-- Analytics -->
+
+		<!-- Extra headers-->
+	</head>
+
+	<body class="theme-base-0d">
+<div class="sidebar">
+	<div class="container sidebar-sticky">
+		<div class="sidebar-about">
+
+			<h1>
+				<a href="https://angellareo.github.io/blog/">
+					<img class="profile-picture" src="https://angellareo.github.io/blog/images/avatar.png">
+					Disceres
+				</a>
+			</h1>
+			<p class="lead"></p>
+			<p class="lead"> </p>
+			<p></p>
+		</div>
+			<ul class="sidebar-nav">
+				  <a href="mailto:angel.lareo@uam.es">Contacto</a> - 				  <a href="https://scholar.google.com/citations?user=zzaFkkoAAAAJ&hl=es">Scholar</a> - 				  <a href="https://angellareo.github.io/blog/blog.html">Blog</a>			</ul>
+		<nav class="sidebar-social">
+					<a class="sidebar-social-item" href="http://mastodon.social/@alareo" target="_blank">
+						<i class="fa fa-mastodon"></i>
+					</a>
+					<a class="sidebar-social-item" href="http://twitter.com/ALFXogo" target="_blank">
+						<i class="fa fa-twitter"></i>
+					</a>
+					<a class="sidebar-social-item" href="http://github.com/angellareo" target="_blank">
+						<i class="fa fa-github"></i>
+					</a>
+			<a class="sidebar-social-item" href="https://angellareo.github.io/blog/feeds/all.atom.xml">
+				<i class="fa fa-rss"></i>
+			</a>
+		</nav>
+	</div>
+</div>		<div class="content container">
+<div class="post">
+	<h1 class="post-title">Claves RSA para conexiones SSH</h1>
+	<span class="post-date">2024_06_08 -- 12:06</span>
+           
+	<div class="cover"><div class="col" style="padding-left: 0px;  padding-right: 0px;">
+	<img src="https://angellareo.github.io/blog/images/ssh_server.png">
+	</div></div>   
+
+	<p>Los que administramos servidores nos pasamos el día conectando por SSH a distintas máquinas. Hacerlo mediante pares de claves RSA (pública y privada) nos aporta distintas ventajas de seguridad:
+ - Las claves RSA (generalmente de 2048 bits o más) son extremadamente difíciles de descifrar en comparación con una contraseña típica. 
+ - Las claves RSA no necesitan ser recordadas ni ingresadas manualmente, lo que elimina el riesgo de que alguien las observe o las adivine.
+ - Al cifrar con AES la clave privada mediante contraseña añadimos un factor adicional de seguridad, que impedirá el acceso a nuestros servidores incluso si nuestro sistema es comprometido.</p>
+<h1>Generar el par de claves</h1>
+<p>Vamos a generar un par de claves RSA de 4096 bits:</p>
+<div class="highlight"><pre><span></span><code>ssh-keygen -t rsa -b 4096
+<span class="gh">#</span> Podemos indicar el nombre y la ruta para el par de claves
+<span class="gh">#</span> Por defecto se generará en ~/.ssh/id_rsa
+<span class="gh">#</span> Podemos elegir (y recomiendo) cifrar la clave privada con una contraseña
+</code></pre></div>
+
+<p>La mayoría de tutoriales utilizan la ruta por defecto, aquí vamos a seguir otra vía: utilizar una clave específica para cada par de usuario-servidor. En adelante supondremos que hemos generado el par de claves <code>~/.ssh/usuario_servidor_rsa</code> (la clave pública estará en la misma ruta, en un segundo fichero terminado en <code>.pub</code>).</p>
+<p>Si hemos elegido no cifrar la clave privada y cambiamos de opinión, o si la hemos cifrado con una contraseña que deseamos cambiar, podemos utilizar:</p>
+<div class="highlight"><pre><span></span><code>ssh-keygen -p -f ~/.ssh/usuario_servidor_rsa
+</code></pre></div>
+
+<h1>Instalar clave en nuestro servidor</h1>
+<p>Ahora procedemos a instalar la clave pública en nuestro usuario del server. Suponemos que nuestro usuario es <code>usuario</code> y nuestro servidor es <code>servidor.es</code>. Para elegir la clave a copiar utilizaremos el parámetro <code>-i &lt;ruta-a-la-clave&gt;</code>:</p>
+<div class="highlight"><pre><span></span><code><span class="n">ssh</span><span class="o">-</span><span class="n">copy</span><span class="o">-</span><span class="n">id</span><span class="w"> </span><span class="o">-</span><span class="n">i</span><span class="w"> </span><span class="o">~/</span><span class="p">.</span><span class="n">ssh</span><span class="o">/</span><span class="n">usuario_servidor_rsa</span><span class="w"> </span><span class="n">usuario</span><span class="nv">@servidor</span><span class="p">.</span><span class="n">es</span>
+</code></pre></div>
+
+<p>Nos pedirá la contraseña que habitualmente utilizamos para conectarnos e instalará la clave pública en la ruta <code>~/.ssh/authorized_keys</code> de nuestro servidor (puedes confirmarlo haciendo <code>cat</code> de este archivo). Esto le indica al servidor que el usuario que disponga de la clave privada que encaje con la clave pública que acabamos de instalar está autorizado a conectarse. Vamos a probarlo.</p>
+<h1>Conectar al servidor</h1>
+<p>Para conectar al servidor lanzamos:</p>
+<div class="highlight"><pre><span></span><code><span class="n">ssh</span><span class="w"> </span><span class="o">-</span><span class="n">i</span><span class="w"> </span><span class="o">~/</span><span class="p">.</span><span class="n">ssh</span><span class="o">/</span><span class="n">usuario_servidor_rsa</span><span class="w"> </span><span class="n">usuario</span><span class="nv">@servidor</span><span class="p">.</span><span class="n">es</span>
+</code></pre></div>
+
+<p>Y únicamente tendremos que introducir la contraseña con la que hemos cifrado la clave privada para conectarnos.</p>
+<p>Como último paso, si queremos asociar la clave a toda conexión ssh con ese usuario a ese servidor, podemos establecerlo en nuestro fichero <code>~/.ssh/config</code>:</p>
+<div class="highlight"><pre><span></span><code>Host servidor.es
+    User usuario
+    IdentityFile ~/.ssh/usuario_servidor_rsa
+</code></pre></div>
+
+<p>Ahora bastará con que conectemos mediante:</p>
+<div class="highlight"><pre><span></span><code>ssh servidor.es
+</code></pre></div>
+
+<p>¡Listo! Espero que os resulte útil.</p>
+
+		<span class="post-tags">
+			Tags:
+			<ul>
+					<li><a href="https://angellareo.github.io/blog/tag/ssh.html">ssh</a></li>
+					<li><a href="https://angellareo.github.io/blog/tag/rsa.html">RSA</a></li>
+			</ul>
+		</span>
+
+</div>
+		</div>
+	</body>
+</html>
