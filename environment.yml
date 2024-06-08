@@ -4,6 +4,7 @@ name: blog
 channels:
   - defaults
 dependencies:
+  - pip
   - _libgcc_mutex=0.1=main
   - _openmp_mutex=5.1=1_gnu
   - bzip2=1.0.8=h5eee18b_5
