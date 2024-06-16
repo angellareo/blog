@@ -9,9 +9,12 @@ Summary: Te cuento cómo conectar por SSH a tu(s) servidor(es) usando claves RSA
 
 
 Los que administramos servidores nos pasamos el día conectando por SSH a distintas máquinas. Hacerlo mediante pares de claves RSA (pública y privada) nos aporta distintas ventajas de seguridad:
- - Las claves RSA (generalmente de 2048 bits o más) son extremadamente difíciles de descifrar en comparación con una contraseña típica. 
- - Las claves RSA no necesitan ser recordadas ni ingresadas manualmente, lo que elimina el riesgo de que alguien las observe o las adivine.
- - Al cifrar con AES la clave privada mediante contraseña añadimos un factor adicional de seguridad, que impedirá el acceso a nuestros servidores incluso si nuestro sistema es comprometido.
+
+
+- Las claves RSA (generalmente de 2048 bits o más) son extremadamente difíciles de descifrar en comparación con una contraseña típica. 
+- Las claves RSA no necesitan ser recordadas ni ingresadas manualmente, lo que elimina el riesgo de que alguien las observe o las adivine.
+- Al cifrar con AES la clave privada mediante contraseña añadimos un factor adicional de seguridad, que impedirá el acceso a nuestros servidores incluso si nuestro sistema es comprometido.
+
 
 # Generar el par de claves
 
@@ -57,3 +60,5 @@ ssh servidor.es
 ```
 
 ¡Listo! Espero que os resulte útil.
+
+PD: Si utilizas **Konsole** como [emulador de terminal](https://es.wikipedia.org/wiki/Emulador_de_terminal) y acostumbras a conectarte a diferentes servidores, te puede resultar útil el [plugin SSH Manager](https://invent.kde.org/utilities/konsole/-/merge_requests/360).
