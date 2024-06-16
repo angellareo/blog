@@ -4,7 +4,7 @@ Date: 2024-06-16 14:52
 Category: General
 Tags: Mastodon, FOSS, código abierto, feediverso, STEM, Tecnología
 Author: Angel Lareo
-Cover: images/mastodon_logo.png
+Cover: images/mastodon_logo_2.png
 Summary: Servidores de Mastodon interesantes
 
 Seguramente hayáis oido hablar de esta red social independiente, perteneciente al [*fediverso*](https://es.wikipedia.org/wiki/Fediverso): **Mastodon**. Si no lo habéis echo antes, echadle una ojeada. [Mastodon](https://joinmastodon.org/es) ofrece una alternativa a las redes sociales tradicionales: Está desarrollada como **software libre** (licencia GNU GLP), **descentralizada** (permite que autoalojes tu propio servidor ya nima a los usuarios unirse a servidores específicos en función de sus intereses), con **API abierta** (no te fuerza a utilizar una aplicación específica para utilizarla) y **respetuosa con tu privacidad y tu atención** (no busca maximizar tu *engagement* para recabar más y más datos de sus usuarios).
