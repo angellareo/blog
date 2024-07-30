@@ -1,5 +1,157 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Disceres - Angel Lareo</title><link href="https://angellareo.github.io/blog/" rel="alternate"></link><link href="https://angellareo.github.io/blog/feeds/angel-lareo.atom.xml" rel="self"></link><id>https://angellareo.github.io/blog/</id><updated>2024-06-16T14:52:00+02:00</updated><entry><title>Servidores Mastodon I</title><link href="https://angellareo.github.io/blog/posts/2024/06/servidores-mastodon/" rel="alternate"></link><published>2024-06-16T14:52:00+02:00</published><updated>2024-06-16T14:52:00+02:00</updated><author><name>Angel Lareo</name></author><id>tag:angellareo.github.io,2024-06-16:/blog/posts/2024/06/servidores-mastodon/</id><summary type="html">&lt;p&gt;Servidores de Mastodon interesantes&lt;/p&gt;</summary><content type="html">&lt;p&gt;Seguramente hayáis oido hablar de esta red social independiente, perteneciente al &lt;a href="https://es.wikipedia.org/wiki/Fediverso"&gt;&lt;em&gt;fediverso&lt;/em&gt;&lt;/a&gt;: &lt;strong&gt;Mastodon&lt;/strong&gt;. Si no lo habéis echo antes, echadle una ojeada. &lt;a href="https://joinmastodon.org/es"&gt;Mastodon&lt;/a&gt; ofrece una alternativa a las redes sociales tradicionales: Está desarrollada como &lt;strong&gt;software libre&lt;/strong&gt; (licencia GNU GLP), &lt;strong&gt;descentralizada&lt;/strong&gt; (permite que autoalojes tu propio servidor ya nima a los usuarios unirse a servidores específicos en función de sus intereses), con &lt;strong&gt;API abierta&lt;/strong&gt; (no te fuerza a utilizar una aplicación específica para utilizarla) y &lt;strong&gt;respetuosa con tu privacidad y tu atención&lt;/strong&gt; (no busca maximizar tu &lt;em&gt;engagement&lt;/em&gt; para recabar más y más datos de sus usuarios).&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Disceres - Angel Lareo</title><link href="https://angellareo.github.io/blog/" rel="alternate"></link><link href="https://angellareo.github.io/blog/feeds/angel-lareo.atom.xml" rel="self"></link><id>https://angellareo.github.io/blog/</id><updated>2024-07-07T10:52:00+02:00</updated><entry><title>Principales indicadores y métricas en ciencia</title><link href="https://angellareo.github.io/blog/posts/2024/07/indicadores-ciencia/" rel="alternate"></link><published>2024-07-07T10:52:00+02:00</published><updated>2024-07-07T10:52:00+02:00</updated><author><name>Angel Lareo</name></author><id>tag:angellareo.github.io,2024-07-07:/blog/posts/2024/07/indicadores-ciencia/</id><summary type="html">&lt;p&gt;Un repaso a los principales indicadores utilizados para valorar el trabajo de quienes investigamos.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Vivimos en un mundo con cierta obsesión por la cuantificación objetiva, especialmente cuando hablamos de productividad. Dentro de esa búsqueda utópica (algunos dirían, distópica) no son pocos los &lt;strong&gt;indicadores para valorar la calidad la cantidad de la producción científica&lt;/strong&gt; de una persona investigadora¹. No obstante, es relevante para quienes investigamos entender qué miden estos indicadores y cómo lo miden. Así pues, revisémoslos.&lt;/p&gt;
+&lt;h2&gt;Bases de datos&lt;/h2&gt;
+&lt;p&gt;Para empezar, todo indicador está ligado a una &lt;strong&gt;base de datos&lt;/strong&gt; subyacente de publicaciones o de actividad científica. Las más importantes son &lt;strong&gt;Scopus&lt;/strong&gt;, que origina el &lt;em&gt;Scimago Journal &amp;amp; Country Rank (SJR)&lt;/em&gt;; &lt;strong&gt;Web of Science&lt;/strong&gt;, vinculada a los &lt;em&gt;Journal Citation Reports&lt;/em&gt; (JCR); &lt;strong&gt;Medline&lt;/strong&gt; y &lt;strong&gt;Scholar&lt;/strong&gt; de Google. También veremos que otros indicadores, como &lt;a href="https://www.altmetric.com/about-us/our-data/our-sources/"&gt;altmetrics, utilizan datos de diferentes fuentes&lt;/a&gt; como documentos de políticas públicas, redes sociales, Wikipedia, blogs, etc.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.scopus.com/home.uri"&gt;&lt;strong&gt;Scopus&lt;/strong&gt;&lt;/a&gt; es la base de datos de pago de &lt;em&gt;Elsevier&lt;/em&gt;. Cubre una gran variedad de áreas (ciencias, arte, humanidades...) y artículos de revistas científicas. Es, de hecho, la base de datos que indexa más referencias. Además contiene libros, artículos de conferencias y patentes. Calcula índices de impacto como &lt;em&gt;SJR (Scimago Journal Rank)&lt;/em&gt;, &lt;em&gt;SNIP (Source Normalized Impact per Paper)&lt;/em&gt; y bibliométricos como el &lt;strong&gt;&lt;em&gt;índice h&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://clarivate.com/products/scientific-and-academic-research/research-discovery-and-workflow-solutions/webofscience-platform/"&gt;&lt;strong&gt;Web of Science (WoS)&lt;/strong&gt;&lt;/a&gt; es la versión electrónica del &lt;em&gt;Science Citation Index&lt;/em&gt; originado en 1955 por el &lt;em&gt;Institute for Scientific Information (ISI)&lt;/em&gt; y, desde 2016, pertenece a la empresa &lt;em&gt;Clarivate Analytics&lt;/em&gt;. La licencia española de WoS es gestionada por la &lt;em&gt;Fundación Española para la Ciencia y la Tecnología (FECYT)&lt;/em&gt;. Como Scopus, cubre una amplia variedad de áreas con publicaciones desde principios del siglo XX. Realiza el cálculo del &lt;strong&gt;factor de impacto&lt;/strong&gt; (&lt;em&gt;Journal Impact Factor (JIF)&lt;/em&gt;, solo para las revistas de ciencias y ciencias sociales) y el JCI (&lt;em&gt;Journal Citation Indicator&lt;/em&gt;) de las revistas científicas, además de otros índices específicos para disciplinas como ciencias naturales aplicadas y clínicas (SCIE), ciencias sociales (SSCI) o artes y humanidades (SSCI); también tienen índices específicos de libros (BKCI) o de actas de conferencia (CPCI).&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.nlm.nih.gov/bsd/medline.html"&gt;&lt;strong&gt;Medline&lt;/strong&gt;&lt;/a&gt; es una base de datos creada por la Biblioteca Nacional de Medicina de los Estados Unidos de América. Contiene referencias de unos 26 millones de artículos publicados desde 1946, fundamentalmente en áreas relacionadas con ciencias de la vida. Medline también se conoce como &lt;strong&gt;PubMed&lt;/strong&gt;, que es &lt;a href="https://www.nlm.nih.gov/bsd/difference.html"&gt;la interfaz pública&lt;/a&gt; que incluye, además de las referencias de &lt;em&gt;Medline&lt;/em&gt;, artículos de otros campos de estudio. Por último, &lt;a href="https://www.ncbi.nlm.nih.gov/pmc/about/intro/"&gt;&lt;strong&gt;PubMed Central&lt;/strong&gt;&lt;/a&gt; es un archivo de &lt;em&gt;Medline&lt;/em&gt; que contiene documentos de texto completo de revistas biomédicas y de ciencias de la vida que se ofrecen de forma gratuita.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://scholar.google.com"&gt;&lt;strong&gt;Scholar&lt;/strong&gt;&lt;/a&gt; es la base de datos de referencias académicas de &lt;em&gt;Google&lt;/em&gt;. En este caso se trata de una base de datos gratuita y con referencias en una gran variedad de idiomas. Incluye todo tipo de publicaciones, muchas de las cuales no pasan por un proceso de revisión por pares. Además del índice h y el h5*, Scholar calcula el índice i10. &lt;/p&gt;
+&lt;h2&gt;Journal Impact Factor (JIF)&lt;/h2&gt;
+&lt;p&gt;El &lt;em&gt;Journal Impact Factor (JIF)&lt;/em&gt; o factor de impacto es una métrica a nivel de revista. Refleja el número promedio de citas que reciben los artículos de una revista publicados en los últimos dos años. Este indicador se crea en 1975[²] a partir del &lt;em&gt;Science Citation Index&lt;/em&gt; (SCI) de &lt;a href="https://es.wikipedia.org/wiki/Eugene_Garfield"&gt;Eugene Garfield&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;El JIF de una revista para un año N se calcula de acuerdo a la siguiente fórmula:
+&lt;/p&gt;
+&lt;div class="math"&gt;$$ JIF = \frac{\text{Citas en N a N-1 + Citas en N a N-2}}{\#\text{N-1} + \#\text{N-2}},$$&lt;/div&gt;
+&lt;p&gt;
+donde:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;N es la colección de publicaciones en el año actual&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;N-1 y N-2 son las colecciones de publicaciones en el año anterior y el previo respectivamente&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;# es la cardinalidad del conjunto (cantidad de items citables)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A partir de este valor se elabora el ranking JCR. Los &lt;strong&gt;cuartiles&lt;/strong&gt; y &lt;strong&gt;percentiles&lt;/strong&gt; son medidas estadísticas utilizadas para comparar el impacto de diferentes revistas en un mismo campo. Para calcular los cuartiles de una revista:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Se recopilan los datos de factor de impacto de la revista en cuestión y de las demás revistas de su campo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Se ordenan las revistas del campo según su factor de impacto, de mayor a menor.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Se divide la lista en cuatro grupos iguales (cuartiles) de acuerdo con el número de revistas en la lista.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Es importante mencionar que el cuartil aplicable es el del año en el que se publica el artículo o el último cuartil disponible si su publicación es reciente.&lt;/p&gt;
+&lt;p&gt;Desde 2018, WoS calcula también:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Versión del JIF que &lt;strong&gt;excluye las autocitas&lt;/strong&gt;. Útil, aunque no es la utilizada para elaborar los rankings. Hay que tener en cuenta que las autocitas pueden ser pertinentes. Además, para el caso de malas praxis con autocitas, WoS ya penaliza en el cálculo del JIF a unas pocas decenas de publicaciones por exceso de autocitas.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;JIF a cinco años&lt;/strong&gt;, calculado con la fórmula adaptada a cinco años en lugar de a dos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Inmediacy index&lt;/em&gt;&lt;/strong&gt;, adaptación de la fórmula del JIF que toma en cuenta únicamente las &lt;strong&gt;citas en el mismo año&lt;/strong&gt; de publicación del artículo (en lugar de los dos años anteriores).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Cited half live&lt;/em&gt;&lt;/strong&gt;, el cálculo de la &lt;strong&gt;media de "edad" de las citas&lt;/strong&gt; recibidas, entendiendo por edad la distancia en años entre el año de publicación del artículo y la cita.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Eigenfactor&lt;/em&gt;&lt;/strong&gt;, que es un cálculo derivado del &lt;strong&gt;JIF a cinco años, sin autocitas y con diferente peso&lt;/strong&gt; de cada cita según nivel de la revista citante.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Estas variantes permiten una visión más completa del factor de impacto de una publicación.&lt;/p&gt;
+&lt;h2&gt;Scimago Journal Rank (SJR)&lt;/h2&gt;
+&lt;p&gt;El SJR también es una métrica de revista. Se calcula utilizando un algoritmo similar al &lt;a href="https://es.wikipedia.org/wiki/PageRank"&gt;PageRank de Google&lt;/a&gt; en el que &lt;strong&gt;cada revista se interpreta como un nodo en un grafo&lt;/strong&gt;, y el flujo de "prestigio" se distribuye entre estos nodos. De modo iterativo, el algoritmo considera tanto la cantidad de citas recibidas por una revista como el prestigio de las revistas que citan a la revista en cuestión.&lt;/p&gt;
+&lt;p&gt;En una &lt;strong&gt;primera fase&lt;/strong&gt;, se calcula el &lt;strong&gt;prestigio (PSJR2)&lt;/strong&gt; de cada revista. Todas parten del mismo valor de prestigio inicial 1/N (donde N es el número de revistas de la base de datos) y se aplica un &lt;strong&gt;algoritmo iterativo&lt;/strong&gt;. Cada iteración modifica los valores de prestigio de cada revista de acuerdo con tres criterios: (1) un valor mínimo de prestigio por el simple hecho de estar incluida en la base de datos; (2) un prestigio de la revista dado por el número de documentos incluidos en la base de datos; y (3) un prestigio de citación dado por el número, la «importancia» y la «cercanía» de las citas recibidas de otras revistas.&lt;/p&gt;
+&lt;p&gt;El PSJR2 calculado en la primera fase es dependiente del tamaño (a mayor tamaño, valores de prestigio más elevados) por lo que no es adecuado para comparaciones entre revistas. En una &lt;strong&gt;segunda fase&lt;/strong&gt;, el PSJR2 se divide por la proporción de documentos citables que tiene cada revista en relación con el total para obtener SJR2.&lt;/p&gt;
+&lt;div class="math"&gt;$$ \text{SJR2}_{i} = \frac{\text{PSJR2}_{i}}{(\frac{\text{Art}_{i}}{\sum_{j=1}^{N}{\text{Art}_j}})} $$&lt;/div&gt;
+&lt;p&gt;Donde &lt;span class="math"&gt;\(\text{Art}_{i}\)&lt;/span&gt; es el número de documentos primarios (artículos, reseñas, estudios breves y ponencias) de la revista &lt;span class="math"&gt;\(i\)&lt;/span&gt;. Como las proporciones de documentos citables suman 1, este procedimiento compara la "porción del pastel" de prestigio que alcanza una revista, lo que implica una ventaja a la hora de interpretar los valores. Un valor SJR2 = 1 significa que el prestigio por documento es la media. Un valor de 0,8 se interpreta como que se ha alcanzado un 20% menos de prestigio que la media, y un valor de 1,3 corresponde a un 30% más de prestigio que la media.&lt;/p&gt;
+&lt;p&gt;Este algoritmo se aplica a todas las revistas en la base de datos Scopus en una ventana de citas de tres años y el proceso iterativo se repite hasta que los valores convergen.&lt;/p&gt;
+&lt;p&gt;Para más información sobre cómo se calcula SJR y una caracterización estadística del mismo, puedes consultar el &lt;a href="https://www.scimagojr.com/files/SJR2.pdf"&gt;artículo de Guerrero-Bote y Moya-Anegón's (2012)&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Índices: &lt;em&gt;h&lt;/em&gt; y &lt;em&gt;g&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;JIF y SJR2 eran métricas a nivel de revista, sin embargo los índices &lt;strong&gt;h&lt;/strong&gt; y &lt;strong&gt;g&lt;/strong&gt; son métricas referidas a la &lt;strong&gt;producción e impacto de un investigador&lt;/strong&gt; basándose en sus publicaciones y citas.&lt;/p&gt;
+&lt;p&gt;El &lt;a href="https://es.wikipedia.org/wiki/%C3%8Dndice_h"&gt;índice &lt;strong&gt;h&lt;/strong&gt;&lt;/a&gt; fue &lt;a href="https://www.pnas.org/doi/full/10.1073/pnas.0507655102"&gt;propuesto por el físico Jorge E. Hirsch en 2005&lt;/a&gt;. Su valor viene dado por el número máximo &lt;span class="math"&gt;\(h\)&lt;/span&gt; tal que el investigador tiene al menos &lt;span class="math"&gt;\(h\)&lt;/span&gt; publicaciones que han sido citadas al menos &lt;span class="math"&gt;\(h\)&lt;/span&gt; veces.&lt;/p&gt;
+&lt;p&gt;El &lt;a href="https://en.wikipedia.org/wiki/G-index"&gt;índice &lt;strong&gt;g&lt;/strong&gt;&lt;/a&gt; fue &lt;a href="https://link.springer.com/article/10.1007/s11192-006-0144-7"&gt;propuesto por Leo Egghe en 2006&lt;/a&gt; como una &lt;strong&gt;alternativa al índice h&lt;/strong&gt;. Su valor es el mayor número &lt;span class="math"&gt;\(g\)&lt;/span&gt; tal que las &lt;span class="math"&gt;\(g\)&lt;/span&gt; publicaciones más citadas han recibido, conjuntamente, al menos &lt;span class="math"&gt;\(g^2\)&lt;/span&gt; citas. De este modo, considera el número acumulado de citas, dándole más peso a las publicaciones altamente citadas.&lt;/p&gt;
+&lt;p&gt;Por ejemplo, un investigador que tiene las siguientes publicaciones: Publicación A (19 citas);  Publicación B (8 citas); Publicación C (7 citas); Publicación D (2 citas); Publicación E (1 citas); Publicación F (0 citas). Su &lt;strong&gt;índice h sería 3&lt;/strong&gt; (A, B y C han sido publicadas al menos 3 veces), mientras que su &lt;strong&gt;índice g sería 6&lt;/strong&gt; (tomando sus 6 publicaciones, acumulan 37 citas y &lt;span class="math"&gt;\(37\geq6^{2}\)&lt;/span&gt;).&lt;/p&gt;
+&lt;h2&gt;Referencias&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://academic.oup.com/ije/article/35/5/1123/762383"&gt;Citation indexes for science: a new dimension in documentation through association of ideas.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.scimagojr.com/files/SJR2.pdf"&gt;A further step forward in measuring journals’ scientific prestige: The SJR2 indicator&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.pnas.org/doi/full/10.1073/pnas.0507655102"&gt;An index to quantify an individual's scientific research output&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://link.springer.com/article/10.1007/s11192-006-0144-7"&gt;Theory and practise of the g-index&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;NOTAS&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Si esto empieza a sonarte a cadena de montaje, no eres el primero ni el único.&lt;/li&gt;
+&lt;li&gt;Sobre la evolución del indicador es interesante &lt;a href="https://garfield.library.upenn.edu/papers/barcelona2007a.pdf"&gt;este artículo&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Ciencia"></category><category term="Investigación"></category><category term="Ciencia"></category><category term="STEM"></category><category term="métricas"></category><category term="Factor de impacto"></category></entry><entry><title>Servidores Mastodon I</title><link href="https://angellareo.github.io/blog/posts/2024/06/servidores-mastodon/" rel="alternate"></link><published>2024-06-16T14:52:00+02:00</published><updated>2024-06-16T14:52:00+02:00</updated><author><name>Angel Lareo</name></author><id>tag:angellareo.github.io,2024-06-16:/blog/posts/2024/06/servidores-mastodon/</id><summary type="html">&lt;p&gt;Servidores de Mastodon interesantes&lt;/p&gt;</summary><content type="html">&lt;p&gt;Seguramente hayáis oido hablar de esta red social independiente, perteneciente al &lt;a href="https://es.wikipedia.org/wiki/Fediverso"&gt;&lt;em&gt;fediverso&lt;/em&gt;&lt;/a&gt;: &lt;strong&gt;Mastodon&lt;/strong&gt;. Si no lo habéis echo antes, echadle una ojeada. &lt;a href="https://joinmastodon.org/es"&gt;Mastodon&lt;/a&gt; ofrece una alternativa a las redes sociales tradicionales: Está desarrollada como &lt;strong&gt;software libre&lt;/strong&gt; (licencia GNU GLP), &lt;strong&gt;descentralizada&lt;/strong&gt; (permite que autoalojes tu propio servidor ya nima a los usuarios unirse a servidores específicos en función de sus intereses), con &lt;strong&gt;API abierta&lt;/strong&gt; (no te fuerza a utilizar una aplicación específica para utilizarla) y &lt;strong&gt;respetuosa con tu privacidad y tu atención&lt;/strong&gt; (no busca maximizar tu &lt;em&gt;engagement&lt;/em&gt; para recabar más y más datos de sus usuarios).&lt;/p&gt;
 &lt;p&gt;Voy a comentar tres servidores que considero ideales para desarrolladores, investigadores y entusiastas del software libre. Por supuesto, &lt;a href="https://joinmastodon.org/es/servers"&gt;hay muchos más&lt;/a&gt;, incluso &lt;a href="https://www.reddit.com/r/Mastodon/comments/yy71wh/is_there_a_science_mastodon/"&gt;limitándonos al mundo científico&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;&lt;a href="https://fosstodon.org"&gt;Fosstodon.org&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="Portada de Fosstodon.org con datos de usuarios" src="https://angellareo.github.io/blog/images/fosstodon_org.png" title="Fosstodon.org"&gt;&lt;/p&gt;
