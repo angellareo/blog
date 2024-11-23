@@ -1,14 +1,6 @@
 # pelican-hyde
 
-The pelican-hyde is a [Pelican](https://github.com/getpelican) theme inspired on the beautiful [Hyde](http://hyde.getpoole.com/) Jekyll theme
-
-You can see a live demo [here](http://jvanz.github.io/)
-
-
-![Screenshot](screenshot.png)
-
-Pull requests are welcome
-
+The pelican-okulto is a [Pelican](https://github.com/getpelican) theme based on [pelican-hide](https://github.com/jvanz/pelican-hyde/releases)
 
 ## Settings
 
@@ -48,6 +40,7 @@ to modify the templates.
 
 - Original theme by [Mark Otto](https://github.com/mdo): <https://github.com/poole/hyde>
 - Ported to Pelican by [José Guilherme Vanz](https://github.com/jvanz)
+- Modified by [Angel Lareo](https://github.com/angellareo)
 
 
 ## License
