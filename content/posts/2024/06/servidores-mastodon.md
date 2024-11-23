@@ -2,7 +2,7 @@ Title: Servidores Mastodon
 Slug: servidores-mastodon
 Date: 2024-06-16 14:52
 Category: General
-Tags: Mastodon, FOSS, código abierto, feediverso, STEM, Tecnología
+Tags: Mastodon, FLOSS, código abierto, fediverso, STEM, Tecnología
 Author: Angel Lareo
 Cover: images/mastodon_logo_2.png
 Summary: Servidores de Mastodon interesantes
