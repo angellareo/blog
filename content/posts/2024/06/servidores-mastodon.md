@@ -1,4 +1,4 @@
-Title: Servidores Mastodon I
+Title: Servidores Mastodon
 Slug: servidores-mastodon
 Date: 2024-06-16 14:52
 Category: General
@@ -29,6 +29,6 @@ Scicomm.xyz es un servidor de Mastodon dedicado a la comunicación científica. 
 
 [*Qoto.org*](https://qoto.org/) es un servidor de Mastodon centrado en las STEM (Ciencia, Tecnología, Ingeniería y Matemáticas, por sus siglas en inglés). Al contrario que *scicomm.xyz*, tiene una política de ‘federación abierta’  y una moderación ligera que permite contenido bloqueado en otras redes. Esto [ha generado cierta controversia](https://www.reddit.com/r/Mastodon/comments/z09ioa/qotoorg_an_inclusive_stemfocued_instance/) que llevó a que fuera eliminado del directorio *joinmastodon*. No obstante, entre sus perfiles hay muchos que resultan interesantes.
 
-Mientras redes sociales como *Twitter/X*, *Instagram* o *TikTok* degeneran en drogas repletas de bulos y crispación, en el fediverso aún hay espacio para construir un internet sano, sostenible e interesante.
+Mientras redes sociales como *Twitter/X*, *Instagram* o *TikTok* degeneran en drogas repletas de bulos y polarización, en el fediverso aún hay espacio para construir un internet sano, sostenible e interesante.
 
 ¡Disfruta del tooteo!
