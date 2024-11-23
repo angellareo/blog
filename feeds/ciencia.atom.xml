@@ -9,9 +9,7 @@
 &lt;h2&gt;Journal Impact Factor (JIF)&lt;/h2&gt;
 &lt;p&gt;El &lt;em&gt;Journal Impact Factor (JIF)&lt;/em&gt; o factor de impacto es una métrica a nivel de revista. Refleja el número promedio de citas que reciben los artículos de una revista publicados en los últimos dos años. Este indicador se crea en 1975[²] a partir del &lt;em&gt;Science Citation Index&lt;/em&gt; (SCI) de &lt;a href="https://es.wikipedia.org/wiki/Eugene_Garfield"&gt;Eugene Garfield&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;El JIF de una revista para un año N se calcula de acuerdo a la siguiente fórmula:
-&lt;/p&gt;
-&lt;div class="math"&gt;$$ JIF = \frac{\text{Citas en N a N-1 + Citas en N a N-2}}{\#\text{N-1} + \#\text{N-2}},$$&lt;/div&gt;
-&lt;p&gt;
+$$ JIF = \frac{\text{Citas en N a N-1 + Citas en N a N-2}}{#\text{N-1} + #\text{N-2}},$$
 donde:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -60,15 +58,15 @@ donde:&lt;/p&gt;
 &lt;p&gt;El SJR también es una métrica de revista. Se calcula utilizando un algoritmo similar al &lt;a href="https://es.wikipedia.org/wiki/PageRank"&gt;PageRank de Google&lt;/a&gt; en el que &lt;strong&gt;cada revista se interpreta como un nodo en un grafo&lt;/strong&gt;, y el flujo de "prestigio" se distribuye entre estos nodos. De modo iterativo, el algoritmo considera tanto la cantidad de citas recibidas por una revista como el prestigio de las revistas que citan a la revista en cuestión.&lt;/p&gt;
 &lt;p&gt;En una &lt;strong&gt;primera fase&lt;/strong&gt;, se calcula el &lt;strong&gt;prestigio (PSJR2)&lt;/strong&gt; de cada revista. Todas parten del mismo valor de prestigio inicial 1/N (donde N es el número de revistas de la base de datos) y se aplica un &lt;strong&gt;algoritmo iterativo&lt;/strong&gt;. Cada iteración modifica los valores de prestigio de cada revista de acuerdo con tres criterios: (1) un valor mínimo de prestigio por el simple hecho de estar incluida en la base de datos; (2) un prestigio de la revista dado por el número de documentos incluidos en la base de datos; y (3) un prestigio de citación dado por el número, la «importancia» y la «cercanía» de las citas recibidas de otras revistas.&lt;/p&gt;
 &lt;p&gt;El PSJR2 calculado en la primera fase es dependiente del tamaño (a mayor tamaño, valores de prestigio más elevados) por lo que no es adecuado para comparaciones entre revistas. En una &lt;strong&gt;segunda fase&lt;/strong&gt;, el PSJR2 se divide por la proporción de documentos citables que tiene cada revista en relación con el total para obtener SJR2.&lt;/p&gt;
-&lt;div class="math"&gt;$$ \text{SJR2}_{i} = \frac{\text{PSJR2}_{i}}{(\frac{\text{Art}_{i}}{\sum_{j=1}^{N}{\text{Art}_j}})} $$&lt;/div&gt;
-&lt;p&gt;Donde &lt;span class="math"&gt;\(\text{Art}_{i}\)&lt;/span&gt; es el número de documentos primarios (artículos, reseñas, estudios breves y ponencias) de la revista &lt;span class="math"&gt;\(i\)&lt;/span&gt;. Como las proporciones de documentos citables suman 1, este procedimiento compara la "porción del pastel" de prestigio que alcanza una revista, lo que implica una ventaja a la hora de interpretar los valores. Un valor SJR2 = 1 significa que el prestigio por documento es la media. Un valor de 0,8 se interpreta como que se ha alcanzado un 20% menos de prestigio que la media, y un valor de 1,3 corresponde a un 30% más de prestigio que la media.&lt;/p&gt;
+&lt;p&gt;$$ \text{SJR2}&lt;em i&gt;{i} = \frac{\text{PSJR2}&lt;/em&gt;}}{(\frac{\text{Art&lt;em j="1"&gt;{i}}{\sum&lt;/em&gt; $$ }^{N}{\text{Art}_j}})&lt;/p&gt;
+&lt;p&gt;Donde $\text{Art}_{i}$ es el número de documentos primarios (artículos, reseñas, estudios breves y ponencias) de la revista $i$. Como las proporciones de documentos citables suman 1, este procedimiento compara la "porción del pastel" de prestigio que alcanza una revista, lo que implica una ventaja a la hora de interpretar los valores. Un valor SJR2 = 1 significa que el prestigio por documento es la media. Un valor de 0,8 se interpreta como que se ha alcanzado un 20% menos de prestigio que la media, y un valor de 1,3 corresponde a un 30% más de prestigio que la media.&lt;/p&gt;
 &lt;p&gt;Este algoritmo se aplica a todas las revistas en la base de datos Scopus en una ventana de citas de tres años y el proceso iterativo se repite hasta que los valores convergen.&lt;/p&gt;
 &lt;p&gt;Para más información sobre cómo se calcula SJR y una caracterización estadística del mismo, puedes consultar el &lt;a href="https://www.scimagojr.com/files/SJR2.pdf"&gt;artículo de Guerrero-Bote y Moya-Anegón's (2012)&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Índices: &lt;em&gt;h&lt;/em&gt; y &lt;em&gt;g&lt;/em&gt;&lt;/h2&gt;
 &lt;p&gt;JIF y SJR2 eran métricas a nivel de revista, sin embargo los índices &lt;strong&gt;h&lt;/strong&gt; y &lt;strong&gt;g&lt;/strong&gt; son métricas referidas a la &lt;strong&gt;producción e impacto de un investigador&lt;/strong&gt; basándose en sus publicaciones y citas.&lt;/p&gt;
-&lt;p&gt;El &lt;a href="https://es.wikipedia.org/wiki/%C3%8Dndice_h"&gt;índice &lt;strong&gt;h&lt;/strong&gt;&lt;/a&gt; fue &lt;a href="https://www.pnas.org/doi/full/10.1073/pnas.0507655102"&gt;propuesto por el físico Jorge E. Hirsch en 2005&lt;/a&gt;. Su valor viene dado por el número máximo &lt;span class="math"&gt;\(h\)&lt;/span&gt; tal que el investigador tiene al menos &lt;span class="math"&gt;\(h\)&lt;/span&gt; publicaciones que han sido citadas al menos &lt;span class="math"&gt;\(h\)&lt;/span&gt; veces.&lt;/p&gt;
-&lt;p&gt;El &lt;a href="https://en.wikipedia.org/wiki/G-index"&gt;índice &lt;strong&gt;g&lt;/strong&gt;&lt;/a&gt; fue &lt;a href="https://link.springer.com/article/10.1007/s11192-006-0144-7"&gt;propuesto por Leo Egghe en 2006&lt;/a&gt; como una &lt;strong&gt;alternativa al índice h&lt;/strong&gt;. Su valor es el mayor número &lt;span class="math"&gt;\(g\)&lt;/span&gt; tal que las &lt;span class="math"&gt;\(g\)&lt;/span&gt; publicaciones más citadas han recibido, conjuntamente, al menos &lt;span class="math"&gt;\(g^2\)&lt;/span&gt; citas. De este modo, considera el número acumulado de citas, dándole más peso a las publicaciones altamente citadas.&lt;/p&gt;
-&lt;p&gt;Por ejemplo, un investigador que tiene las siguientes publicaciones: Publicación A (19 citas);  Publicación B (8 citas); Publicación C (7 citas); Publicación D (2 citas); Publicación E (1 citas); Publicación F (0 citas). Su &lt;strong&gt;índice h sería 3&lt;/strong&gt; (A, B y C han sido publicadas al menos 3 veces), mientras que su &lt;strong&gt;índice g sería 6&lt;/strong&gt; (tomando sus 6 publicaciones, acumulan 37 citas y &lt;span class="math"&gt;\(37\geq6^{2}\)&lt;/span&gt;).&lt;/p&gt;
+&lt;p&gt;El &lt;a href="https://es.wikipedia.org/wiki/%C3%8Dndice_h"&gt;índice &lt;strong&gt;h&lt;/strong&gt;&lt;/a&gt; fue &lt;a href="https://www.pnas.org/doi/full/10.1073/pnas.0507655102"&gt;propuesto por el físico Jorge E. Hirsch en 2005&lt;/a&gt;. Su valor viene dado por el número máximo $h$ tal que el investigador tiene al menos $h$ publicaciones que han sido citadas al menos $h$ veces.&lt;/p&gt;
+&lt;p&gt;El &lt;a href="https://en.wikipedia.org/wiki/G-index"&gt;índice &lt;strong&gt;g&lt;/strong&gt;&lt;/a&gt; fue &lt;a href="https://link.springer.com/article/10.1007/s11192-006-0144-7"&gt;propuesto por Leo Egghe en 2006&lt;/a&gt; como una &lt;strong&gt;alternativa al índice h&lt;/strong&gt;. Su valor es el mayor número $g$ tal que las $g$ publicaciones más citadas han recibido, conjuntamente, al menos $g^2$ citas. De este modo, considera el número acumulado de citas, dándole más peso a las publicaciones altamente citadas.&lt;/p&gt;
+&lt;p&gt;Por ejemplo, un investigador que tiene las siguientes publicaciones: Publicación A (19 citas);  Publicación B (8 citas); Publicación C (7 citas); Publicación D (2 citas); Publicación E (1 citas); Publicación F (0 citas). Su &lt;strong&gt;índice h sería 3&lt;/strong&gt; (A, B y C han sido publicadas al menos 3 veces), mientras que su &lt;strong&gt;índice g sería 6&lt;/strong&gt; (tomando sus 6 publicaciones, acumulan 37 citas y $37\geq6^{2}$).&lt;/p&gt;
 &lt;h2&gt;Referencias&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -89,66 +87,4 @@ donde:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Si esto empieza a sonarte a cadena de montaje, no eres el primero ni el único.&lt;/li&gt;
 &lt;li&gt;Sobre la evolución del indicador es interesante &lt;a href="https://garfield.library.upenn.edu/papers/barcelona2007a.pdf"&gt;este artículo&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
-
-    if (false) {
-        align = (screen.width &lt; 768) ? "left" : align;
-        indent = (screen.width &lt; 768) ? "0em" : indent;
-        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
-
-    var configscript = document.createElement('script');
-    configscript.type = 'text/x-mathjax-config';
-    configscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '"+ align +"'," +
-        "    displayIndent: '"+ indent +"'," +
-        "    showMathMenu: true," +
-        "    messageStyle: 'normal'," +
-        "    tex2jax: { " +
-        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
-        "        displayMath: [ ['$$','$$'] ]," +
-        "        processEscapes: true," +
-        "        preview: 'TeX'," +
-        "    }, " +
-        "    'HTML-CSS': { " +
-        "        availableFonts: ['STIX', 'TeX']," +
-        "        preferredFont: 'STIX'," +
-        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
-        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
-        "    }, " +
-        "}); " +
-        "if ('default' !== 'default') {" +
-            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-        "}";
-
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
-}
-&lt;/script&gt;</content><category term="Ciencia"></category><category term="Investigación"></category><category term="Ciencia"></category><category term="STEM"></category><category term="métricas"></category><category term="Factor de impacto"></category></entry></feed>
+&lt;/ol&gt;</content><category term="Ciencia"></category><category term="Investigación"></category><category term="Ciencia"></category><category term="STEM"></category><category term="métricas"></category><category term="Factor de impacto"></category></entry></feed>

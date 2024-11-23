@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Disceres - Angel Lareo</title><link href="https://angellareo.github.io/blog/" rel="alternate"></link><link href="https://angellareo.github.io/blog/feeds/angel-lareo.atom.xml" rel="self"></link><id>https://angellareo.github.io/blog/</id><updated>2024-07-07T10:52:00+02:00</updated><entry><title>Principales indicadores y métricas en ciencia</title><link href="https://angellareo.github.io/blog/posts/2024/07/indicadores-ciencia/" rel="alternate"></link><published>2024-07-07T10:52:00+02:00</published><updated>2024-07-07T10:52:00+02:00</updated><author><name>Angel Lareo</name></author><id>tag:angellareo.github.io,2024-07-07:/blog/posts/2024/07/indicadores-ciencia/</id><summary type="html">&lt;p&gt;Un repaso a los principales indicadores utilizados para valorar el trabajo de quienes investigamos.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Vivimos en un mundo con cierta obsesión por la cuantificación objetiva, especialmente cuando hablamos de productividad. Dentro de esa búsqueda utópica (algunos dirían, distópica) no son pocos los &lt;strong&gt;indicadores para valorar la calidad la cantidad de la producción científica&lt;/strong&gt; de una persona investigadora¹. No obstante, es relevante para quienes investigamos entender qué miden estos indicadores y cómo lo miden. Así pues, revisémoslos.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Disceres - Angel Lareo</title><link href="https://angellareo.github.io/blog/" rel="alternate"></link><link href="https://angellareo.github.io/blog/feeds/angel-lareo.atom.xml" rel="self"></link><id>https://angellareo.github.io/blog/</id><updated>2024-11-13T12:57:00+01:00</updated><entry><title>Principales indicadores y métricas en ciencia</title><link href="https://angellareo.github.io/blog/posts/2024/07/indicadores-ciencia/" rel="alternate"></link><published>2024-07-07T10:52:00+02:00</published><updated>2024-07-07T10:52:00+02:00</updated><author><name>Angel Lareo</name></author><id>tag:angellareo.github.io,2024-07-07:/blog/posts/2024/07/indicadores-ciencia/</id><summary type="html">&lt;p&gt;Un repaso a los principales indicadores utilizados para valorar el trabajo de quienes investigamos.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Vivimos en un mundo con cierta obsesión por la cuantificación objetiva, especialmente cuando hablamos de productividad. Dentro de esa búsqueda utópica (algunos dirían, distópica) no son pocos los &lt;strong&gt;indicadores para valorar la calidad la cantidad de la producción científica&lt;/strong&gt; de una persona investigadora¹. No obstante, es relevante para quienes investigamos entender qué miden estos indicadores y cómo lo miden. Así pues, revisémoslos.&lt;/p&gt;
 &lt;h2&gt;Bases de datos&lt;/h2&gt;
 &lt;p&gt;Para empezar, todo indicador está ligado a una &lt;strong&gt;base de datos&lt;/strong&gt; subyacente de publicaciones o de actividad científica. Las más importantes son &lt;strong&gt;Scopus&lt;/strong&gt;, que origina el &lt;em&gt;Scimago Journal &amp;amp; Country Rank (SJR)&lt;/em&gt;; &lt;strong&gt;Web of Science&lt;/strong&gt;, vinculada a los &lt;em&gt;Journal Citation Reports&lt;/em&gt; (JCR); &lt;strong&gt;Medline&lt;/strong&gt; y &lt;strong&gt;Scholar&lt;/strong&gt; de Google. También veremos que otros indicadores, como &lt;a href="https://www.altmetric.com/about-us/our-data/our-sources/"&gt;altmetrics, utilizan datos de diferentes fuentes&lt;/a&gt; como documentos de políticas públicas, redes sociales, Wikipedia, blogs, etc.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.scopus.com/home.uri"&gt;&lt;strong&gt;Scopus&lt;/strong&gt;&lt;/a&gt; es la base de datos de pago de &lt;em&gt;Elsevier&lt;/em&gt;. Cubre una gran variedad de áreas (ciencias, arte, humanidades...) y artículos de revistas científicas. Es, de hecho, la base de datos que indexa más referencias. Además contiene libros, artículos de conferencias y patentes. Calcula índices de impacto como &lt;em&gt;SJR (Scimago Journal Rank)&lt;/em&gt;, &lt;em&gt;SNIP (Source Normalized Impact per Paper)&lt;/em&gt; y bibliométricos como el &lt;strong&gt;&lt;em&gt;índice h&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
@@ -9,9 +9,7 @@
 &lt;h2&gt;Journal Impact Factor (JIF)&lt;/h2&gt;
 &lt;p&gt;El &lt;em&gt;Journal Impact Factor (JIF)&lt;/em&gt; o factor de impacto es una métrica a nivel de revista. Refleja el número promedio de citas que reciben los artículos de una revista publicados en los últimos dos años. Este indicador se crea en 1975[²] a partir del &lt;em&gt;Science Citation Index&lt;/em&gt; (SCI) de &lt;a href="https://es.wikipedia.org/wiki/Eugene_Garfield"&gt;Eugene Garfield&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;El JIF de una revista para un año N se calcula de acuerdo a la siguiente fórmula:
-&lt;/p&gt;
-&lt;div class="math"&gt;$$ JIF = \frac{\text{Citas en N a N-1 + Citas en N a N-2}}{\#\text{N-1} + \#\text{N-2}},$$&lt;/div&gt;
-&lt;p&gt;
+$$ JIF = \frac{\text{Citas en N a N-1 + Citas en N a N-2}}{#\text{N-1} + #\text{N-2}},$$
 donde:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -60,15 +58,15 @@ donde:&lt;/p&gt;
 &lt;p&gt;El SJR también es una métrica de revista. Se calcula utilizando un algoritmo similar al &lt;a href="https://es.wikipedia.org/wiki/PageRank"&gt;PageRank de Google&lt;/a&gt; en el que &lt;strong&gt;cada revista se interpreta como un nodo en un grafo&lt;/strong&gt;, y el flujo de "prestigio" se distribuye entre estos nodos. De modo iterativo, el algoritmo considera tanto la cantidad de citas recibidas por una revista como el prestigio de las revistas que citan a la revista en cuestión.&lt;/p&gt;
 &lt;p&gt;En una &lt;strong&gt;primera fase&lt;/strong&gt;, se calcula el &lt;strong&gt;prestigio (PSJR2)&lt;/strong&gt; de cada revista. Todas parten del mismo valor de prestigio inicial 1/N (donde N es el número de revistas de la base de datos) y se aplica un &lt;strong&gt;algoritmo iterativo&lt;/strong&gt;. Cada iteración modifica los valores de prestigio de cada revista de acuerdo con tres criterios: (1) un valor mínimo de prestigio por el simple hecho de estar incluida en la base de datos; (2) un prestigio de la revista dado por el número de documentos incluidos en la base de datos; y (3) un prestigio de citación dado por el número, la «importancia» y la «cercanía» de las citas recibidas de otras revistas.&lt;/p&gt;
 &lt;p&gt;El PSJR2 calculado en la primera fase es dependiente del tamaño (a mayor tamaño, valores de prestigio más elevados) por lo que no es adecuado para comparaciones entre revistas. En una &lt;strong&gt;segunda fase&lt;/strong&gt;, el PSJR2 se divide por la proporción de documentos citables que tiene cada revista en relación con el total para obtener SJR2.&lt;/p&gt;
-&lt;div class="math"&gt;$$ \text{SJR2}_{i} = \frac{\text{PSJR2}_{i}}{(\frac{\text{Art}_{i}}{\sum_{j=1}^{N}{\text{Art}_j}})} $$&lt;/div&gt;
-&lt;p&gt;Donde &lt;span class="math"&gt;\(\text{Art}_{i}\)&lt;/span&gt; es el número de documentos primarios (artículos, reseñas, estudios breves y ponencias) de la revista &lt;span class="math"&gt;\(i\)&lt;/span&gt;. Como las proporciones de documentos citables suman 1, este procedimiento compara la "porción del pastel" de prestigio que alcanza una revista, lo que implica una ventaja a la hora de interpretar los valores. Un valor SJR2 = 1 significa que el prestigio por documento es la media. Un valor de 0,8 se interpreta como que se ha alcanzado un 20% menos de prestigio que la media, y un valor de 1,3 corresponde a un 30% más de prestigio que la media.&lt;/p&gt;
+&lt;p&gt;$$ \text{SJR2}&lt;em i&gt;{i} = \frac{\text{PSJR2}&lt;/em&gt;}}{(\frac{\text{Art&lt;em j="1"&gt;{i}}{\sum&lt;/em&gt; $$ }^{N}{\text{Art}_j}})&lt;/p&gt;
+&lt;p&gt;Donde $\text{Art}_{i}$ es el número de documentos primarios (artículos, reseñas, estudios breves y ponencias) de la revista $i$. Como las proporciones de documentos citables suman 1, este procedimiento compara la "porción del pastel" de prestigio que alcanza una revista, lo que implica una ventaja a la hora de interpretar los valores. Un valor SJR2 = 1 significa que el prestigio por documento es la media. Un valor de 0,8 se interpreta como que se ha alcanzado un 20% menos de prestigio que la media, y un valor de 1,3 corresponde a un 30% más de prestigio que la media.&lt;/p&gt;
 &lt;p&gt;Este algoritmo se aplica a todas las revistas en la base de datos Scopus en una ventana de citas de tres años y el proceso iterativo se repite hasta que los valores convergen.&lt;/p&gt;
 &lt;p&gt;Para más información sobre cómo se calcula SJR y una caracterización estadística del mismo, puedes consultar el &lt;a href="https://www.scimagojr.com/files/SJR2.pdf"&gt;artículo de Guerrero-Bote y Moya-Anegón's (2012)&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Índices: &lt;em&gt;h&lt;/em&gt; y &lt;em&gt;g&lt;/em&gt;&lt;/h2&gt;
 &lt;p&gt;JIF y SJR2 eran métricas a nivel de revista, sin embargo los índices &lt;strong&gt;h&lt;/strong&gt; y &lt;strong&gt;g&lt;/strong&gt; son métricas referidas a la &lt;strong&gt;producción e impacto de un investigador&lt;/strong&gt; basándose en sus publicaciones y citas.&lt;/p&gt;
-&lt;p&gt;El &lt;a href="https://es.wikipedia.org/wiki/%C3%8Dndice_h"&gt;índice &lt;strong&gt;h&lt;/strong&gt;&lt;/a&gt; fue &lt;a href="https://www.pnas.org/doi/full/10.1073/pnas.0507655102"&gt;propuesto por el físico Jorge E. Hirsch en 2005&lt;/a&gt;. Su valor viene dado por el número máximo &lt;span class="math"&gt;\(h\)&lt;/span&gt; tal que el investigador tiene al menos &lt;span class="math"&gt;\(h\)&lt;/span&gt; publicaciones que han sido citadas al menos &lt;span class="math"&gt;\(h\)&lt;/span&gt; veces.&lt;/p&gt;
-&lt;p&gt;El &lt;a href="https://en.wikipedia.org/wiki/G-index"&gt;índice &lt;strong&gt;g&lt;/strong&gt;&lt;/a&gt; fue &lt;a href="https://link.springer.com/article/10.1007/s11192-006-0144-7"&gt;propuesto por Leo Egghe en 2006&lt;/a&gt; como una &lt;strong&gt;alternativa al índice h&lt;/strong&gt;. Su valor es el mayor número &lt;span class="math"&gt;\(g\)&lt;/span&gt; tal que las &lt;span class="math"&gt;\(g\)&lt;/span&gt; publicaciones más citadas han recibido, conjuntamente, al menos &lt;span class="math"&gt;\(g^2\)&lt;/span&gt; citas. De este modo, considera el número acumulado de citas, dándole más peso a las publicaciones altamente citadas.&lt;/p&gt;
-&lt;p&gt;Por ejemplo, un investigador que tiene las siguientes publicaciones: Publicación A (19 citas);  Publicación B (8 citas); Publicación C (7 citas); Publicación D (2 citas); Publicación E (1 citas); Publicación F (0 citas). Su &lt;strong&gt;índice h sería 3&lt;/strong&gt; (A, B y C han sido publicadas al menos 3 veces), mientras que su &lt;strong&gt;índice g sería 6&lt;/strong&gt; (tomando sus 6 publicaciones, acumulan 37 citas y &lt;span class="math"&gt;\(37\geq6^{2}\)&lt;/span&gt;).&lt;/p&gt;
+&lt;p&gt;El &lt;a href="https://es.wikipedia.org/wiki/%C3%8Dndice_h"&gt;índice &lt;strong&gt;h&lt;/strong&gt;&lt;/a&gt; fue &lt;a href="https://www.pnas.org/doi/full/10.1073/pnas.0507655102"&gt;propuesto por el físico Jorge E. Hirsch en 2005&lt;/a&gt;. Su valor viene dado por el número máximo $h$ tal que el investigador tiene al menos $h$ publicaciones que han sido citadas al menos $h$ veces.&lt;/p&gt;
+&lt;p&gt;El &lt;a href="https://en.wikipedia.org/wiki/G-index"&gt;índice &lt;strong&gt;g&lt;/strong&gt;&lt;/a&gt; fue &lt;a href="https://link.springer.com/article/10.1007/s11192-006-0144-7"&gt;propuesto por Leo Egghe en 2006&lt;/a&gt; como una &lt;strong&gt;alternativa al índice h&lt;/strong&gt;. Su valor es el mayor número $g$ tal que las $g$ publicaciones más citadas han recibido, conjuntamente, al menos $g^2$ citas. De este modo, considera el número acumulado de citas, dándole más peso a las publicaciones altamente citadas.&lt;/p&gt;
+&lt;p&gt;Por ejemplo, un investigador que tiene las siguientes publicaciones: Publicación A (19 citas);  Publicación B (8 citas); Publicación C (7 citas); Publicación D (2 citas); Publicación E (1 citas); Publicación F (0 citas). Su &lt;strong&gt;índice h sería 3&lt;/strong&gt; (A, B y C han sido publicadas al menos 3 veces), mientras que su &lt;strong&gt;índice g sería 6&lt;/strong&gt; (tomando sus 6 publicaciones, acumulan 37 citas y $37\geq6^{2}$).&lt;/p&gt;
 &lt;h2&gt;Referencias&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -89,69 +87,7 @@ donde:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Si esto empieza a sonarte a cadena de montaje, no eres el primero ni el único.&lt;/li&gt;
 &lt;li&gt;Sobre la evolución del indicador es interesante &lt;a href="https://garfield.library.upenn.edu/papers/barcelona2007a.pdf"&gt;este artículo&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
-
-    if (false) {
-        align = (screen.width &lt; 768) ? "left" : align;
-        indent = (screen.width &lt; 768) ? "0em" : indent;
-        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
-
-    var configscript = document.createElement('script');
-    configscript.type = 'text/x-mathjax-config';
-    configscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '"+ align +"'," +
-        "    displayIndent: '"+ indent +"'," +
-        "    showMathMenu: true," +
-        "    messageStyle: 'normal'," +
-        "    tex2jax: { " +
-        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
-        "        displayMath: [ ['$$','$$'] ]," +
-        "        processEscapes: true," +
-        "        preview: 'TeX'," +
-        "    }, " +
-        "    'HTML-CSS': { " +
-        "        availableFonts: ['STIX', 'TeX']," +
-        "        preferredFont: 'STIX'," +
-        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
-        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
-        "    }, " +
-        "}); " +
-        "if ('default' !== 'default') {" +
-            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-        "}";
-
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
-}
-&lt;/script&gt;</content><category term="Ciencia"></category><category term="Investigación"></category><category term="Ciencia"></category><category term="STEM"></category><category term="métricas"></category><category term="Factor de impacto"></category></entry><entry><title>Servidores Mastodon I</title><link href="https://angellareo.github.io/blog/posts/2024/06/servidores-mastodon/" rel="alternate"></link><published>2024-06-16T14:52:00+02:00</published><updated>2024-06-16T14:52:00+02:00</updated><author><name>Angel Lareo</name></author><id>tag:angellareo.github.io,2024-06-16:/blog/posts/2024/06/servidores-mastodon/</id><summary type="html">&lt;p&gt;Servidores de Mastodon interesantes&lt;/p&gt;</summary><content type="html">&lt;p&gt;Seguramente hayáis oido hablar de esta red social independiente, perteneciente al &lt;a href="https://es.wikipedia.org/wiki/Fediverso"&gt;&lt;em&gt;fediverso&lt;/em&gt;&lt;/a&gt;: &lt;strong&gt;Mastodon&lt;/strong&gt;. Si no lo habéis echo antes, echadle una ojeada. &lt;a href="https://joinmastodon.org/es"&gt;Mastodon&lt;/a&gt; ofrece una alternativa a las redes sociales tradicionales: Está desarrollada como &lt;strong&gt;software libre&lt;/strong&gt; (licencia GNU GLP), &lt;strong&gt;descentralizada&lt;/strong&gt; (permite que autoalojes tu propio servidor ya nima a los usuarios unirse a servidores específicos en función de sus intereses), con &lt;strong&gt;API abierta&lt;/strong&gt; (no te fuerza a utilizar una aplicación específica para utilizarla) y &lt;strong&gt;respetuosa con tu privacidad y tu atención&lt;/strong&gt; (no busca maximizar tu &lt;em&gt;engagement&lt;/em&gt; para recabar más y más datos de sus usuarios).&lt;/p&gt;
+&lt;/ol&gt;</content><category term="Ciencia"></category><category term="Investigación"></category><category term="Ciencia"></category><category term="STEM"></category><category term="métricas"></category><category term="Factor de impacto"></category></entry><entry><title>Servidores Mastodon</title><link href="https://angellareo.github.io/blog/posts/2024/06/servidores-mastodon/" rel="alternate"></link><published>2024-06-16T14:52:00+02:00</published><updated>2024-06-16T14:52:00+02:00</updated><author><name>Angel Lareo</name></author><id>tag:angellareo.github.io,2024-06-16:/blog/posts/2024/06/servidores-mastodon/</id><summary type="html">&lt;p&gt;Servidores de Mastodon interesantes&lt;/p&gt;</summary><content type="html">&lt;p&gt;Seguramente hayáis oido hablar de esta red social independiente, perteneciente al &lt;a href="https://es.wikipedia.org/wiki/Fediverso"&gt;&lt;em&gt;fediverso&lt;/em&gt;&lt;/a&gt;: &lt;strong&gt;Mastodon&lt;/strong&gt;. Si no lo habéis echo antes, echadle una ojeada. &lt;a href="https://joinmastodon.org/es"&gt;Mastodon&lt;/a&gt; ofrece una alternativa a las redes sociales tradicionales: Está desarrollada como &lt;strong&gt;software libre&lt;/strong&gt; (licencia GNU GLP), &lt;strong&gt;descentralizada&lt;/strong&gt; (permite que autoalojes tu propio servidor ya nima a los usuarios unirse a servidores específicos en función de sus intereses), con &lt;strong&gt;API abierta&lt;/strong&gt; (no te fuerza a utilizar una aplicación específica para utilizarla) y &lt;strong&gt;respetuosa con tu privacidad y tu atención&lt;/strong&gt; (no busca maximizar tu &lt;em&gt;engagement&lt;/em&gt; para recabar más y más datos de sus usuarios).&lt;/p&gt;
 &lt;p&gt;Voy a comentar tres servidores que considero ideales para desarrolladores, investigadores y entusiastas del software libre. Por supuesto, &lt;a href="https://joinmastodon.org/es/servers"&gt;hay muchos más&lt;/a&gt;, incluso &lt;a href="https://www.reddit.com/r/Mastodon/comments/yy71wh/is_there_a_science_mastodon/"&gt;limitándonos al mundo científico&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;&lt;a href="https://fosstodon.org"&gt;Fosstodon.org&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="Portada de Fosstodon.org con datos de usuarios" src="https://angellareo.github.io/blog/images/fosstodon_org.png" title="Fosstodon.org"&gt;&lt;/p&gt;
@@ -162,7 +98,7 @@ donde:&lt;/p&gt;
 &lt;h1&gt;&lt;a href="https://qoto.org/"&gt;Qoto.org&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="Portada de Qoto.org con datos de usuarios" src="https://angellareo.github.io/blog/images/qoto_org.png" title="Qoto.org"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://qoto.org/"&gt;&lt;em&gt;Qoto.org&lt;/em&gt;&lt;/a&gt; es un servidor de Mastodon centrado en las STEM (Ciencia, Tecnología, Ingeniería y Matemáticas, por sus siglas en inglés). Al contrario que &lt;em&gt;scicomm.xyz&lt;/em&gt;, tiene una política de ‘federación abierta’  y una moderación ligera que permite contenido bloqueado en otras redes. Esto &lt;a href="https://www.reddit.com/r/Mastodon/comments/z09ioa/qotoorg_an_inclusive_stemfocued_instance/"&gt;ha generado cierta controversia&lt;/a&gt; que llevó a que fuera eliminado del directorio &lt;em&gt;joinmastodon&lt;/em&gt;. No obstante, entre sus perfiles hay muchos que resultan interesantes.&lt;/p&gt;
-&lt;p&gt;Mientras redes sociales como &lt;em&gt;Twitter/X&lt;/em&gt;, &lt;em&gt;Instagram&lt;/em&gt; o &lt;em&gt;TikTok&lt;/em&gt; degeneran en drogas repletas de bulos y crispación, en el fediverso aún hay espacio para construir un internet sano, sostenible e interesante.&lt;/p&gt;
+&lt;p&gt;Mientras redes sociales como &lt;em&gt;Twitter/X&lt;/em&gt;, &lt;em&gt;Instagram&lt;/em&gt; o &lt;em&gt;TikTok&lt;/em&gt; degeneran en drogas repletas de bulos y polarización, en el fediverso aún hay espacio para construir un internet sano, sostenible e interesante.&lt;/p&gt;
 &lt;p&gt;¡Disfruta del tooteo!&lt;/p&gt;</content><category term="General"></category><category term="Mastodon"></category><category term="FOSS"></category><category term="código abierto"></category><category term="feediverso"></category><category term="STEM"></category><category term="Tecnología"></category></entry><entry><title>Claves RSA para conexiones SSH</title><link href="https://angellareo.github.io/blog/posts/2024/06/claves-rsa-ssh/" rel="alternate"></link><published>2024-06-08T12:39:00+02:00</published><updated>2024-06-08T12:39:00+02:00</updated><author><name>Angel Lareo</name></author><id>tag:angellareo.github.io,2024-06-08:/blog/posts/2024/06/claves-rsa-ssh/</id><summary type="html">&lt;p&gt;Te cuento cómo conectar por SSH a tu(s) servidor(es) usando claves RSA&lt;/p&gt;</summary><content type="html">&lt;p&gt;Los que administramos servidores nos pasamos el día conectando por SSH a distintas máquinas. Hacerlo mediante pares de claves RSA (pública y privada) nos aporta distintas ventajas de seguridad:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Las claves RSA (generalmente de 2048 bits o más) son extremadamente difíciles de descifrar en comparación con una contraseña típica. &lt;/li&gt;
@@ -205,8 +141,191 @@ donde:&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;¡Listo! Espero que os resulte útil.&lt;/p&gt;
-&lt;p&gt;PD: Si utilizas &lt;strong&gt;Konsole&lt;/strong&gt; como &lt;a href="https://es.wikipedia.org/wiki/Emulador_de_terminal"&gt;emulador de terminal&lt;/a&gt; y acostumbras a conectarte a diferentes servidores, te puede resultar útil el &lt;a href="https://invent.kde.org/utilities/konsole/-/merge_requests/360"&gt;plugin SSH Manager&lt;/a&gt;.&lt;/p&gt;</content><category term="General"></category><category term="ssh"></category><category term="RSA"></category></entry><entry><title>Hojas de referencia</title><link href="https://angellareo.github.io/blog/posts/2024/05/principales-hojas-referencia/" rel="alternate"></link><published>2024-05-11T20:02:00+02:00</published><updated>2024-05-11T20:02:00+02:00</updated><author><name>Angel Lareo</name></author><id>tag:angellareo.github.io,2024-05-11:/blog/posts/2024/05/principales-hojas-referencia/</id><summary type="html">&lt;p&gt;Algunas hojas de referencia que pueden ayudarte en tu día a día.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Como ya dije, tengo intención de usar el blog como referencia (aunque con la esperanza de que a alguien más le resulte útil).&lt;/p&gt;
+&lt;p&gt;PD: Si utilizas &lt;strong&gt;Konsole&lt;/strong&gt; como &lt;a href="https://es.wikipedia.org/wiki/Emulador_de_terminal"&gt;emulador de terminal&lt;/a&gt; y acostumbras a conectarte a diferentes servidores, te puede resultar útil el &lt;a href="https://invent.kde.org/utilities/konsole/-/merge_requests/360"&gt;plugin SSH Manager&lt;/a&gt;.&lt;/p&gt;</content><category term="General"></category><category term="ssh"></category><category term="RSA"></category></entry><entry><title>Hojas de referencia</title><link href="https://angellareo.github.io/blog/posts/2024/05/hojas-referencia/" rel="alternate"></link><published>2024-05-11T20:02:00+02:00</published><updated>2024-11-13T12:57:00+01:00</updated><author><name>Angel Lareo</name></author><id>tag:angellareo.github.io,2024-05-11:/blog/posts/2024/05/hojas-referencia/</id><summary type="html">&lt;p&gt;Resumen de hojas de referencia que utilizo en mi día a día: Bash, Git, Conda.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Como ya dije, tengo intención de usar el blog como referencia (con la esperanza de que a alguien más le resulte útil).&lt;/p&gt;
 &lt;p&gt;Existen muchísimas hojas de referencia, la mayoría probablemente más completas de lo que yo pueda crear aquí. No obstante, puesto que cada uno tenemos nuestras necesidades y preferencias, aquí está es mi selección personalizada de comandos útiles para el día a día (que, probablemente, se irá actualizando).&lt;/p&gt;
+&lt;h1&gt;bash&lt;/h1&gt;
+&lt;h2&gt;grep&lt;/h2&gt;
+&lt;p&gt;Buscar texto en archivos:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;grep&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;pattern&amp;quot;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;file.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Buscar con contexto (líneas antes y después):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;grep&lt;span class="w"&gt; &lt;/span&gt;-C&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;pattern&amp;quot;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;file.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Excluir líneas que coinciden con el patrón:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;grep&lt;span class="w"&gt; &lt;/span&gt;-v&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;pattern&amp;quot;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;file.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Devolver sólo nombres de archivo que contienen el patrón:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;grep&lt;span class="w"&gt; &lt;/span&gt;-l&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;pattern&amp;quot;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;*.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;find&lt;/h2&gt;
+&lt;p&gt;Buscar archivos por nombre:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;find&lt;span class="w"&gt; &lt;/span&gt;/path/to/search&lt;span class="w"&gt; &lt;/span&gt;-name&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;filename&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Buscar archivos por tipo:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;find&lt;span class="w"&gt; &lt;/span&gt;/path/to/search&lt;span class="w"&gt; &lt;/span&gt;-type&lt;span class="w"&gt; &lt;/span&gt;f&lt;span class="w"&gt; &lt;/span&gt;-name&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;*.txt&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Buscar archivos modificados en los últimos 7 días:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;find&lt;span class="w"&gt; &lt;/span&gt;/path/to/search&lt;span class="w"&gt; &lt;/span&gt;-mtime&lt;span class="w"&gt; &lt;/span&gt;-7
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;cat&lt;/h2&gt;
+&lt;p&gt;Mostrar el contenido de un archivo:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cat&lt;span class="w"&gt; &lt;/span&gt;file.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Concatenar varios archivos:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cat&lt;span class="w"&gt; &lt;/span&gt;file1.txt&lt;span class="w"&gt; &lt;/span&gt;file2.txt&lt;span class="w"&gt; &lt;/span&gt;&amp;gt;&lt;span class="w"&gt; &lt;/span&gt;combined.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;awk&lt;/h2&gt;
+&lt;p&gt;Añadir una columna a un CSV:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;awk&lt;span class="w"&gt; &lt;/span&gt;-F,&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;{print $0&amp;quot;,new_column&amp;quot;}&amp;#39;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;file.csv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Eliminar una columna de un CSV:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;awk&lt;span class="w"&gt; &lt;/span&gt;-F,&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;{$2=&amp;quot;&amp;quot;; print $0}&amp;#39;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;OFS&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;,&lt;span class="w"&gt; &lt;/span&gt;file.csv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Sustituir un campo en un CSV:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;awk&lt;span class="w"&gt; &lt;/span&gt;-F,&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;{$2=&amp;quot;new_value&amp;quot;; print $0}&amp;#39;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;OFS&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;,&lt;span class="w"&gt; &lt;/span&gt;file.csv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;head/tail&lt;/h2&gt;
+&lt;p&gt;Mostrar las primeras 10 líneas de un archivo:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;head&lt;span class="w"&gt; &lt;/span&gt;file.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Mostrar las últimas 10 líneas de un archivo:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;tail&lt;span class="w"&gt; &lt;/span&gt;file.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Mostrar las primeras 20 líneas de un archivo:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;head&lt;span class="w"&gt; &lt;/span&gt;-n&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;20&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;file.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Mostrar las últimas 20 líneas de un archivo:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;tail&lt;span class="w"&gt; &lt;/span&gt;-n&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;20&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;file.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;ls&lt;/h2&gt;
+&lt;p&gt;Listar archivos con detalles:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;ls&lt;span class="w"&gt; &lt;/span&gt;-l
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Listar archivos ordenados por fecha:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;ls&lt;span class="w"&gt; &lt;/span&gt;-lt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Listar archivos incluyendo archivos ocultos:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;ls&lt;span class="w"&gt; &lt;/span&gt;-a
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;pipes&lt;/h2&gt;
+&lt;p&gt;Redirigir la salida de un comando a otro:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;command1&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;|&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;command2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Redirigir la entrada de un archivo a un comando:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;command&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&amp;lt;&lt;span class="w"&gt; &lt;/span&gt;inputfile
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Redirigir la salida de un comando a un archivo (sobrescribir):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;command&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&amp;gt;&lt;span class="w"&gt; &lt;/span&gt;outputfile
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Redirigir la salida de un comando a un archivo (añadir):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;command&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&amp;gt;&amp;gt;&lt;span class="w"&gt; &lt;/span&gt;outputfile
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Redirigir errores a un archivo:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;command&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&amp;gt;&lt;span class="w"&gt; &lt;/span&gt;errorfile
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Redirigir salida estándar y errores a un archivo:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;command&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&amp;gt;&lt;span class="w"&gt; &lt;/span&gt;outputfile&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&amp;gt;&lt;span class="p"&gt;&amp;amp;&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Descartar la salida:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;command&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&amp;gt;&lt;span class="w"&gt; &lt;/span&gt;/dev/null
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;Ejemplos compuestos&lt;/h2&gt;
+&lt;p&gt;Buscar archivos .log y contar las líneas que contienen "error":&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;find&lt;span class="w"&gt; &lt;/span&gt;/path/to/search&lt;span class="w"&gt; &lt;/span&gt;-name&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;*.log&amp;quot;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;|&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;xargs&lt;span class="w"&gt; &lt;/span&gt;grep&lt;span class="w"&gt; &lt;/span&gt;-c&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;error&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Listar archivos modificados en los últimos 7 días y mostrar las primeras 10 líneas de cada uno:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;find&lt;span class="w"&gt; &lt;/span&gt;/path/to/search&lt;span class="w"&gt; &lt;/span&gt;-mtime&lt;span class="w"&gt; &lt;/span&gt;-7&lt;span class="w"&gt; &lt;/span&gt;-type&lt;span class="w"&gt; &lt;/span&gt;f&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;|&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;xargs&lt;span class="w"&gt; &lt;/span&gt;head&lt;span class="w"&gt; &lt;/span&gt;-n&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;10&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;Ejemplo de script bash usando IFS&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="ch"&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Procesar un archivo línea por línea&lt;/span&gt;
+&lt;span class="nv"&gt;input&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;file.txt&amp;quot;&lt;/span&gt;
+&lt;span class="k"&gt;while&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;IFS&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;read&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;-r&lt;span class="w"&gt; &lt;/span&gt;line
+&lt;span class="k"&gt;do&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="nb"&gt;echo&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Processing: &lt;/span&gt;&lt;span class="nv"&gt;$line&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+&lt;span class="k"&gt;done&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&amp;lt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;$input&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h1&gt;git&lt;/h1&gt;
+&lt;p&gt;Configuración inicial&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git&lt;span class="w"&gt; &lt;/span&gt;config&lt;span class="w"&gt; &lt;/span&gt;--global&lt;span class="w"&gt; &lt;/span&gt;user.name&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Your Name&amp;quot;&lt;/span&gt;
+git&lt;span class="w"&gt; &lt;/span&gt;config&lt;span class="w"&gt; &lt;/span&gt;--global&lt;span class="w"&gt; &lt;/span&gt;user.email&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;your.email@example.com&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Clonación de repositorios&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git&lt;span class="w"&gt; &lt;/span&gt;clone&lt;span class="w"&gt; &lt;/span&gt;&amp;lt;repository_url&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Añadir o eliminar del stage (cambios a confirmar)&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git&lt;span class="w"&gt; &lt;/span&gt;add&lt;span class="w"&gt; &lt;/span&gt;&amp;lt;file_name&amp;gt;&lt;span class="w"&gt;              &lt;/span&gt;&lt;span class="c1"&gt;# Stage a specific file&lt;/span&gt;
+git&lt;span class="w"&gt; &lt;/span&gt;add&lt;span class="w"&gt; &lt;/span&gt;.&lt;span class="w"&gt;                        &lt;/span&gt;&lt;span class="c1"&gt;# Stage all changes&lt;/span&gt;
+git&lt;span class="w"&gt; &lt;/span&gt;reset&lt;span class="w"&gt; &lt;/span&gt;&amp;lt;file_name&amp;gt;&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="c1"&gt;# Unstage a specific file&lt;/span&gt;
+git&lt;span class="w"&gt; &lt;/span&gt;reset&lt;span class="w"&gt;                        &lt;/span&gt;&lt;span class="c1"&gt;# Unstage all changes&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Mostrar remotos&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git&lt;span class="w"&gt; &lt;/span&gt;remote&lt;span class="w"&gt; &lt;/span&gt;-v&lt;span class="w"&gt;                    &lt;/span&gt;&lt;span class="c1"&gt;# List remote repositories&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Confirmar cambios&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git&lt;span class="w"&gt; &lt;/span&gt;commit&lt;span class="w"&gt; &lt;/span&gt;-m&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Commit message&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Push / pull&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git&lt;span class="w"&gt; &lt;/span&gt;push&lt;span class="w"&gt; &lt;/span&gt;origin&lt;span class="w"&gt; &lt;/span&gt;&amp;lt;branch_name&amp;gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;# Push changes to a remote repository&lt;/span&gt;
+git&lt;span class="w"&gt; &lt;/span&gt;pull&lt;span class="w"&gt; &lt;/span&gt;origin&lt;span class="w"&gt; &lt;/span&gt;&amp;lt;branch_name&amp;gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;# Pull changes from a remote repository&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Deshacer últimos commits (no &lt;em&gt;pusheados&lt;/em&gt;). El ejemplo se muestra para &lt;em&gt;1&lt;/em&gt; commit, pero podría hacerse para un número &lt;em&gt;n&lt;/em&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git&lt;span class="w"&gt; &lt;/span&gt;reset&lt;span class="w"&gt; &lt;/span&gt;HEAD~1&lt;span class="w"&gt;                 &lt;/span&gt;&lt;span class="c1"&gt;# Undo last commit and keep changes staged&lt;/span&gt;
+git&lt;span class="w"&gt; &lt;/span&gt;reset&lt;span class="w"&gt; &lt;/span&gt;HEAD~1&lt;span class="w"&gt; &lt;/span&gt;--soft&lt;span class="w"&gt;          &lt;/span&gt;&lt;span class="c1"&gt;# Undo last commit and keep changes unstaged&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Manejo de ramas&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git&lt;span class="w"&gt; &lt;/span&gt;branch&lt;span class="w"&gt;                       &lt;/span&gt;&lt;span class="c1"&gt;# List branches&lt;/span&gt;
+git&lt;span class="w"&gt; &lt;/span&gt;branch&lt;span class="w"&gt; &lt;/span&gt;&amp;lt;branch_name&amp;gt;&lt;span class="w"&gt;         &lt;/span&gt;&lt;span class="c1"&gt;# Create a new branch&lt;/span&gt;
+git&lt;span class="w"&gt; &lt;/span&gt;checkout&lt;span class="w"&gt; &lt;/span&gt;&amp;lt;branch_name&amp;gt;&lt;span class="w"&gt;       &lt;/span&gt;&lt;span class="c1"&gt;# Switch to a different branch&lt;/span&gt;
+git&lt;span class="w"&gt; &lt;/span&gt;merge&lt;span class="w"&gt; &lt;/span&gt;&amp;lt;branch_name&amp;gt;&lt;span class="w"&gt;          &lt;/span&gt;&lt;span class="c1"&gt;# Merge changes from another branch into the current branch&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Manejo del stash&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git&lt;span class="w"&gt; &lt;/span&gt;stash&lt;span class="w"&gt;                        &lt;/span&gt;&lt;span class="c1"&gt;# Stash changes&lt;/span&gt;
+git&lt;span class="w"&gt; &lt;/span&gt;stash&lt;span class="w"&gt; &lt;/span&gt;pop&lt;span class="w"&gt;                    &lt;/span&gt;&lt;span class="c1"&gt;# Apply stashed changes and remove them from the stash&lt;/span&gt;
+git&lt;span class="w"&gt; &lt;/span&gt;stash&lt;span class="w"&gt; &lt;/span&gt;list&lt;span class="w"&gt;                   &lt;/span&gt;&lt;span class="c1"&gt;# List stashed changes&lt;/span&gt;
+git&lt;span class="w"&gt; &lt;/span&gt;stash&lt;span class="w"&gt; &lt;/span&gt;apply&lt;span class="w"&gt;                  &lt;/span&gt;&lt;span class="c1"&gt;# Apply stashed changes without removing them from the stash&lt;/span&gt;
+git&lt;span class="w"&gt; &lt;/span&gt;stash&lt;span class="w"&gt; &lt;/span&gt;drop&lt;span class="w"&gt;                   &lt;/span&gt;&lt;span class="c1"&gt;# Remove a specific stash&lt;/span&gt;
+git&lt;span class="w"&gt; &lt;/span&gt;stash&lt;span class="w"&gt; &lt;/span&gt;clear&lt;span class="w"&gt;                  &lt;/span&gt;&lt;span class="c1"&gt;# Remove all stashes&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;h1&gt;conda&lt;/h1&gt;
 &lt;p&gt;Listar environments&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;conda&lt;span class="w"&gt; &lt;/span&gt;info&lt;span class="w"&gt; &lt;/span&gt;--envs
@@ -226,59 +345,8 @@ conda&lt;span class="w"&gt; &lt;/span&gt;env&lt;span class="w"&gt; &lt;/span&gt;
 
 &lt;p&gt;Eliminar environment:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;conda&lt;span class="w"&gt; &lt;/span&gt;remove&lt;span class="w"&gt; &lt;/span&gt;--name&lt;span class="w"&gt; &lt;/span&gt;&amp;lt;my-env&amp;gt;&lt;span class="w"&gt; &lt;/span&gt;--all
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h1&gt;git&lt;/h1&gt;
-&lt;p&gt;Configuración inicial&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git&lt;span class="w"&gt; &lt;/span&gt;config&lt;span class="w"&gt; &lt;/span&gt;--global&lt;span class="w"&gt; &lt;/span&gt;user.name&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Your Name&amp;quot;&lt;/span&gt;
-git&lt;span class="w"&gt; &lt;/span&gt;config&lt;span class="w"&gt; &lt;/span&gt;--global&lt;span class="w"&gt; &lt;/span&gt;user.email&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;your.email@example.com&amp;quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Clonación de repositorios&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git clone &amp;lt;repository_url&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Añadir o eliminar del stage (cambios a confirmar)&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git&lt;span class="w"&gt; &lt;/span&gt;add&lt;span class="w"&gt; &lt;/span&gt;&amp;lt;file_name&amp;gt;&lt;span class="w"&gt;              &lt;/span&gt;&lt;span class="c1"&gt;# Stage a specific file&lt;/span&gt;
-git&lt;span class="w"&gt; &lt;/span&gt;add&lt;span class="w"&gt; &lt;/span&gt;.&lt;span class="w"&gt;                        &lt;/span&gt;&lt;span class="c1"&gt;# Stage all changes&lt;/span&gt;
-git&lt;span class="w"&gt; &lt;/span&gt;reset&lt;span class="w"&gt; &lt;/span&gt;&amp;lt;file_name&amp;gt;&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="c1"&gt;# Unstage a specific file&lt;/span&gt;
-git&lt;span class="w"&gt; &lt;/span&gt;reset&lt;span class="w"&gt;                        &lt;/span&gt;&lt;span class="c1"&gt;# Unstage all changes&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Mostrar remotos&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git&lt;span class="w"&gt; &lt;/span&gt;remote&lt;span class="w"&gt; &lt;/span&gt;-v&lt;span class="w"&gt;                    &lt;/span&gt;&lt;span class="c1"&gt;# List remote repositories&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Confirmar cambios&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git commit -m &amp;quot;Commit message&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Push / pull&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git&lt;span class="w"&gt; &lt;/span&gt;push&lt;span class="w"&gt; &lt;/span&gt;origin&lt;span class="w"&gt; &lt;/span&gt;&amp;lt;branch_name&amp;gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;# Push changes to a remote repository&lt;/span&gt;
-git&lt;span class="w"&gt; &lt;/span&gt;pull&lt;span class="w"&gt; &lt;/span&gt;origin&lt;span class="w"&gt; &lt;/span&gt;&amp;lt;branch_name&amp;gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;# Pull changes from a remote repository&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Deshacer últimos commits (no &lt;em&gt;pusheados&lt;/em&gt;). El ejemplo se muestra para &lt;em&gt;1&lt;/em&gt; commit, pero podría hacerse para un número &lt;em&gt;n&lt;/em&gt;.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git reset HEAD~1                 # Undo last commit and keep changes staged
-git reset HEAD~1 --soft          # Undo last commit and keep changes unstaged
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Manejo de ramas&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git&lt;span class="w"&gt; &lt;/span&gt;branch&lt;span class="w"&gt;                       &lt;/span&gt;&lt;span class="c1"&gt;# List branches&lt;/span&gt;
-git&lt;span class="w"&gt; &lt;/span&gt;branch&lt;span class="w"&gt; &lt;/span&gt;&amp;lt;branch_name&amp;gt;&lt;span class="w"&gt;         &lt;/span&gt;&lt;span class="c1"&gt;# Create a new branch&lt;/span&gt;
-git&lt;span class="w"&gt; &lt;/span&gt;checkout&lt;span class="w"&gt; &lt;/span&gt;&amp;lt;branch_name&amp;gt;&lt;span class="w"&gt;       &lt;/span&gt;&lt;span class="c1"&gt;# Switch to a different branch&lt;/span&gt;
-git&lt;span class="w"&gt; &lt;/span&gt;merge&lt;span class="w"&gt; &lt;/span&gt;&amp;lt;branch_name&amp;gt;&lt;span class="w"&gt;          &lt;/span&gt;&lt;span class="c1"&gt;# Merge changes from another branch into the current branch&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Manejo del stash&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git&lt;span class="w"&gt; &lt;/span&gt;stash&lt;span class="w"&gt;                        &lt;/span&gt;&lt;span class="c1"&gt;# Stash changes&lt;/span&gt;
-git&lt;span class="w"&gt; &lt;/span&gt;stash&lt;span class="w"&gt; &lt;/span&gt;pop&lt;span class="w"&gt;                    &lt;/span&gt;&lt;span class="c1"&gt;# Apply stashed changes and remove them from the stash&lt;/span&gt;
-git&lt;span class="w"&gt; &lt;/span&gt;stash&lt;span class="w"&gt; &lt;/span&gt;list&lt;span class="w"&gt;                   &lt;/span&gt;&lt;span class="c1"&gt;# List stashed changes&lt;/span&gt;
-git&lt;span class="w"&gt; &lt;/span&gt;stash&lt;span class="w"&gt; &lt;/span&gt;apply&lt;span class="w"&gt;                  &lt;/span&gt;&lt;span class="c1"&gt;# Apply stashed changes without removing them from the stash&lt;/span&gt;
-git&lt;span class="w"&gt; &lt;/span&gt;stash&lt;span class="w"&gt; &lt;/span&gt;drop&lt;span class="w"&gt;                   &lt;/span&gt;&lt;span class="c1"&gt;# Remove a specific stash&lt;/span&gt;
-git&lt;span class="w"&gt; &lt;/span&gt;stash&lt;span class="w"&gt; &lt;/span&gt;clear&lt;span class="w"&gt;                  &lt;/span&gt;&lt;span class="c1"&gt;# Remove all stashes&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="General"></category><category term="cheatsheet"></category><category term="referencia"></category></entry><entry><title>¡Bienvenida!</title><link href="https://angellareo.github.io/blog/posts/2024/04/bienvenida/" rel="alternate"></link><published>2024-04-28T23:01:00+02:00</published><updated>2024-04-28T23:01:00+02:00</updated><author><name>Angel Lareo</name></author><id>tag:angellareo.github.io,2024-04-28:/blog/posts/2024/04/bienvenida/</id><summary type="html">&lt;p&gt;Inauguración de este blog&lt;/p&gt;</summary><content type="html">&lt;p&gt;¡Bienvenidas todas las personas a este blog! Espero poder contar por aquí algunas de las cosas que me interesan, y espero que a vosotras también os resulten interesantes.&lt;/p&gt;
 &lt;p&gt;Principalmente podréis encontrar (si todo va según lo esperado) contenidos relacionados con la informática y la tecnología con una perspectiva libre u &lt;em&gt;open-source&lt;/em&gt;. Hablaré de aquello que me vaya interesando en mi día a día y, a menudo, utilizaré el blog como referencia para mí mismo (dado que, muy probablemente, seré el principal visitante :D). Esporádicamente quizá hable también sobre los temas que investigo, los que imparto en la universidad o sobre aquellos que me interesan y están en la intersección entre tecnología y sociedad.&lt;/p&gt;
-&lt;p&gt;Para quien le interese, el blog es contenido estático construido con &lt;a href="https://getpelican.com/"&gt;Pelican&lt;/a&gt;, similar a &lt;a href="https://jekyllrb.com/"&gt;Jekyll&lt;/a&gt; pero desarrollado en python. &lt;/p&gt;
-&lt;p&gt;Muchas gracias si estás leyendo esto por llegar hasta aquí.&lt;/p&gt;
+&lt;p&gt;Para quien le interese, el blog es contenido estático construido con &lt;a href="https://getpelican.com/"&gt;Pelican&lt;/a&gt; (similar al más conocido &lt;a href="https://jekyllrb.com/"&gt;Jekyll&lt;/a&gt;, pero desarrollado en python).&lt;/p&gt;
+&lt;p&gt;Muchas gracias si estás leyendo esto por llegar hasta aquí. Si te gusta el contenido puedes &lt;a href="https://mastodon.social/@alareo"&gt;contactarme por mastodon&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;¡Arrancamos!&lt;/p&gt;</content><category term="General"></category><category term="pelican"></category><category term="open source"></category><category term="foss"></category></entry></feed>
