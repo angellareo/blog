@@ -30,7 +30,9 @@ LINKS = (
 
 SOCIAL = (
     ("mastodon", "http://mastodon.social/@alareo"),
-    ("twitter", "http://twitter.com/ALFXogo"),
+    ("google-scholar", "https://scholar.google.com/citations?user=zzaFkkoAAAAJ&hl=es"),
+    ("email", "angel.lareo@uam.es"),
+    ("itch-io", "https://alfxogo.itch.io/"),
     ("github", "http://github.com/angellareo"),
 )
 
@@ -76,8 +78,8 @@ ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{slug}/index.html'
 DIRECT_TEMPLATES = (('index', 'blog', 'tags', 'categories', 'archives'))
 PAGINATED_DIRECT_TEMPLATES = (('blog',))
 TEMPLATE_PAGES = {'home.html': 'index.html',}
-MENUITEMS = {
-    ('Blog', 'https://angellareo.github.io/blog/blog.html'),
-    ('Scholar', 'https://scholar.google.com/citations?user=zzaFkkoAAAAJ&hl=es'),
-    ("Contacto", "mailto:angel.lareo@uam.es")
-}
+# MENUITEMS = {
+#     ('Blog', 'https://angellareo.github.io/blog/blog.html'),
+#     ('Scholar', 'https://scholar.google.com/citations?user=zzaFkkoAAAAJ&hl=es'),
+#     ("Contacto", "mailto:angel.lareo@uam.es")
+# }

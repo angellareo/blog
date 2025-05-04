@@ -30,22 +30,15 @@
 			{% for name, link in SOCIAL %}
 				{% if name == 'email' %}
 					<a class="sidebar-social-item" href="mailto:{{ link }}">
-						<i class="fa fa-envelope"></i>
+						<i class="fas fa-envelope"></i>
 					</a>
-				{% elif name in ['academia', 'acclaim', 'acm', 'acmdl', 'ads', 'arxiv',
-						 'biorxiv', 'ceur', 'coursera', 'cv', 'dataverse',
-						 'dblp', 'depsy', 'doi', 'dryad', 'figshare',
-						 'google-scholar', 'ideas-repec', 'ieee', 'impactstory',
-						 'inspire', 'lattes', 'mathoverflow', 'open-access',
-						 'osf', 'overleaf', 'philpapers', 'piazza', 'publons',
-						 'pubmed', 'researcherid', 'scirate', 'semantic-scholar',
-						 'springer', 'zotero'] %}
+				{% elif name in ['itch-io'] %}
 					<a class="sidebar-social-item" href="{{ link }}" target="_blank">
-						<i class="ai ai-{{ name }}"></i>
+						<i class="fab fa-{{ name }}"></i>
 					</a>
 				{% else %}
 					<a class="sidebar-social-item" href="{{ link }}" target="_blank">
-						<i class="fa fa-{{ name }}"></i>
+						<i class="fab fa-{{ name }}"></i>
 					</a>
 				{% endif %}
 			{% endfor %}
