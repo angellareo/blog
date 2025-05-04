@@ -8,9 +8,9 @@
 		<!-- Metadata -->
 	<meta name="description" content="">
 	<meta property="og:description" content="">
-	<meta property="og:title" content="¡Bienvenida!" />
+	<meta property="og:title" content="CLI-quotes" />
 	<meta property="og:type" content="article" />
-	<meta property="og:url" content="https://angellareo.github.io/blog/posts/2024/04/bienvenida/" />
+	<meta property="og:url" content="https://angellareo.github.io/blog/posts/2025/05/CLI-quotes/" />
 		<meta property="og:image" content="https://angellareo.github.io/blog/images/avatar.png" />
 
 		<!-- Enable responsiveness on mobile devices-->
@@ -76,25 +76,34 @@
 	</div>
 </div>		<div class="content container">
 <div class="post">
-	<h1 class="post-title">¡Bienvenida!</h1>
-	<span class="post-date">2024_04_28 -- 23:04</span>
+	<h1 class="post-title">CLI-quotes</h1>
+	<span class="post-date">2025_05_04 -- 16:05</span>
            
 	<div class="cover"><div class="col" style="padding-left: 0px;  padding-right: 0px;">
-	<img src="https://angellareo.github.io/blog/images/ascii_cat.jpg">
+	<img src="https://angellareo.github.io/blog/images/CLI-quotes.png">
 	</div></div>   
 
-	<p>¡Bienvenidas todas las personas a este blog! Espero poder contar por aquí algunas de las cosas que me interesan, y espero que a vosotras también os resulten interesantes.</p>
-<p>Principalmente podréis encontrar (si todo va según lo esperado) contenidos relacionados con la informática y la tecnología con una perspectiva libre u <em>open-source</em>. Hablaré de aquello que me vaya interesando en mi día a día y, a menudo, utilizaré el blog como referencia para mí mismo (dado que, muy probablemente, seré el principal visitante :D). Esporádicamente quizá hable también sobre los temas que investigo, los que imparto en la universidad o sobre aquellos que me interesan y están en la intersección entre tecnología y sociedad.</p>
-<p>Para quien le interese, el blog es contenido estático construido con <a href="https://getpelican.com/">Pelican</a> (similar al más conocido <a href="https://jekyllrb.com/">Jekyll</a>, pero desarrollado en python).</p>
-<p>Muchas gracias si estás leyendo esto por llegar hasta aquí. Si te gusta el contenido puedes <a href="https://mastodon.social/@alareo">contactarme por mastodon</a>.</p>
-<p>¡Arrancamos!</p>
+	<p>Hace tiempo que no subo nada por aquí, así que aprovecho para actualizar con un pequeño proyecto personal. Se trata de <a href="https://github.com/angellareo/CLI-quotes?tab=readme-ov-file">CLI-quotes</a>, una aplicación muy simple para gestionar colecciones de citas que se muestren de manera aleatoria. Yo la he incluido en <code>.bashrc</code>, de modo que se muestra una cita de manera aleatoria cada vez que lanzo una terminal.</p>
+<p>El proyecto está basado en <a href="https://github.com/pouyakary/bret-victor-quotes">esta aplicación</a> que escrapeaba la <a href="https://worrydream.com/quotes/">base de datos de citas de Bret Victor</a>. El objetivo es reutilizar y ampliar la funcionalidad del script de go dedicado a mostrarlas, obviando la funcionalidad de scrapear. El formato de la base de datos sigue siendo un JSON, como en el proyecto original, pero con varios campos extra.</p>
+<p>Aunque proyecto del repositorio viene por defecto con algunas citas (en inglés y español) que pretendo ir ampliando, puedes utilizarlo para generar tu propia colección. La base de datos está en la carpeta <code>quotes-data/$LANG_CODE</code>.</p>
+<p>Un ejemplo de cita es:</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;author&quot;</span><span class="p">:</span><span class="w">      </span><span class="s2">&quot;Cathy O&#39;Neil&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;authorlink&quot;</span><span class="p">:</span><span class="w">  </span><span class="s2">&quot;https://es.wikipedia.org/wiki/Cathy_O%27Neil&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;link&quot;</span><span class="p">:</span><span class="w">        </span><span class="s2">&quot;https://lab.cccb.org/es/la-autoridad-de-lo-inescrutable-cathy-oneil/&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;quote&quot;</span><span class="p">:</span><span class="w">       </span><span class="s2">&quot;Los algoritmos son opiniones incrustadas en lenguaje matemático\n\n&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;source&quot;</span><span class="p">:</span><span class="w">      </span><span class="s2">&quot;Weapons of Math Destruction&quot;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>Puede que, en algún momento, separe la aplicación de la base de datos, pero de momento se distribuyen conjuntamente. Está liberado bajo licencia AGPLv3.0. Avisadme si hacéis uso del proyecto ;)</p>
 
 		<span class="post-tags">
 			Tags:
 			<ul>
-					<li><a href="https://angellareo.github.io/blog/tag/pelican.html">pelican</a></li>
-					<li><a href="https://angellareo.github.io/blog/tag/open-source.html">open source</a></li>
-					<li><a href="https://angellareo.github.io/blog/tag/foss.html">foss</a></li>
+					<li><a href="https://angellareo.github.io/blog/tag/citas.html">Citas</a></li>
+					<li><a href="https://angellareo.github.io/blog/tag/cultura.html">Cultura</a></li>
+					<li><a href="https://angellareo.github.io/blog/tag/floss.html">FLOSS</a></li>
 			</ul>
 		</span>
 
