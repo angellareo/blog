@@ -5,7 +5,7 @@ Category: General
 Tags: Inkscape, FLOSS, Edicion, Visualización, Imágenes, Ciencia
 Author: Angel Lareo
 Cover: images/inkscape_v14.png
-Summary: Recursos para utilizar Inkscape, el editor FLOSS de imágenes vectoriales más potente.
+Summary: Recursos para utilizar Inkscape, el editor FLOSS de imágenes vectoriales.
 
 [Inkscape](https://inkscape.org/) es una gran herramienta FLOSS ([licencia GNU GPLv3](https://gitlab.com/inkscape/inbox/-/blob/master/LICENSE)) para crear imágenes vectoriales. Aunque en algunos aspectos no tenga los recursos de los que dispone Illustrator, al ser libre resulta ideal para ilustraciones científicas.
 
